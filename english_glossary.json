@@ -1,0 +1,370 @@
+{
+  "ability": {
+    "phonetic": "/əˈbɪl.ə.ti/",
+    "defs": [
+      "the power or skill to do something"
+    ],
+    "examples": [
+      "She has the ability to solve complex problems quickly."
+    ],
+    "synonyms": [
+      "capacity",
+      "capability"
+    ],
+    "antonyms": [
+      "inability"
+    ]
+  },
+  "about": {
+    "phonetic": "/əˈbaʊt/",
+    "defs": [
+      "concerning; on the subject of"
+    ]
+  },
+  "above": {
+    "phonetic": "/əˈbʌv/",
+    "defs": [
+      "at a higher level or layer than"
+    ]
+  },
+  "accept": {
+    "phonetic": "/əkˈsept/",
+    "defs": [
+      "consent to receive or undertake"
+    ]
+  },
+  "according": {
+    "phonetic": "/əˈkɔː.dɪŋ/",
+    "defs": [
+      "as stated by or in"
+    ]
+  },
+  "achieve": {
+    "phonetic": "/əˈtʃiːv/",
+    "defs": [
+      "successfully bring about or reach"
+    ]
+  },
+  "across": {
+    "phonetic": "/əˈkrɒs/",
+    "defs": [
+      "from one side to the other"
+    ]
+  },
+  "action": {
+    "phonetic": "/ˈæk.ʃən/",
+    "defs": [
+      "the fact or process of doing something"
+    ]
+  },
+  "activity": {
+    "phonetic": "/ækˈtɪv.ə.ti/",
+    "defs": [
+      "a thing that a person or group does"
+    ]
+  },
+  "actual": {
+    "phonetic": "/ˈæk.tʃu.əl/",
+    "defs": [
+      "existing in fact; real"
+    ]
+  },
+  "add": {
+    "phonetic": "/æd/",
+    "defs": [
+      "join (something) to something else"
+    ]
+  },
+  "address": {
+    "phonetic": "/əˈdres/",
+    "defs": [
+      "speak to; deal with"
+    ]
+  },
+  "age": {
+    "phonetic": "/eɪdʒ/",
+    "defs": [
+      "the length of time that a person has lived"
+    ]
+  },
+  "agree": {
+    "phonetic": "/əˈɡriː/",
+    "defs": [
+      "have the same opinion"
+    ]
+  },
+  "almost": {
+    "phonetic": "/ˈɔːl.məʊst/",
+    "defs": [
+      "not quite; very nearly"
+    ]
+  },
+  "alone": {
+    "phonetic": "/əˈləʊn/",
+    "defs": [
+      "having no one else present"
+    ]
+  },
+  "along": {
+    "phonetic": "/əˈlɒŋ/",
+    "defs": [
+      "moving in a constant direction on"
+    ]
+  },
+  "already": {
+    "phonetic": "/ɔːlˈred.i/",
+    "defs": [
+      "before or by now or the time in question"
+    ]
+  },
+  "also": {
+    "phonetic": "/ˈɔːl.səʊ/",
+    "defs": [
+      "in addition; too"
+    ]
+  },
+  "always": {
+    "phonetic": "/ˈɔːl.weɪz/",
+    "defs": [
+      "at all times; on all occasions"
+    ]
+  },
+  "american": {
+    "phonetic": "/əˈmer.ɪ.kən/",
+    "defs": [
+      "of or relating to the United States"
+    ]
+  },
+  "answer": {
+    "phonetic": "/ˈɑːn.sər/",
+    "defs": [
+      "a thing said, written, or done as a reaction to a question"
+    ],
+    "examples": [
+      "Please write a brief answer to each question."
+    ],
+    "synonyms": [
+      "reply",
+      "response"
+    ],
+    "antonyms": [
+      "question"
+    ]
+  },
+  "any": {
+    "phonetic": "/ˈen.i/",
+    "defs": [
+      "used to refer to one or some of a thing or number of things"
+    ]
+  },
+  "appear": {
+    "phonetic": "/əˈpɪər/",
+    "defs": [
+      "come into sight; become visible"
+    ]
+  },
+  "area": {
+    "phonetic": "/ˈeə.ri.ə/",
+    "defs": [
+      "a region or part of a town, a country, or the world"
+    ]
+  },
+  "argue": {
+    "phonetic": "/ˈɑːɡ.juː/",
+    "defs": [
+      "give reasons or cite evidence in support of an idea"
+    ]
+  },
+  "article": {
+    "phonetic": "/ˈɑː.tɪ.kəl/",
+    "defs": [
+      "a piece of writing"
+    ]
+  },
+  "ask": {
+    "phonetic": "/ɑːsk/",
+    "defs": [
+      "say something in order to obtain information"
+    ]
+  },
+  "average": {
+    "phonetic": "/ˈæv.ər.ɪdʒ/",
+    "defs": [
+      "a number expressing the central value of a set of data"
+    ]
+  },
+  "back": {
+    "phonetic": "/bæk/",
+    "defs": [
+      "the rear surface of the human body"
+    ]
+  },
+  "bad": {
+    "phonetic": "/bæd/",
+    "defs": [
+      "of poor quality; not good"
+    ]
+  },
+  "because": {
+    "phonetic": "/bɪˈkɒz/",
+    "defs": [
+      "for the reason that"
+    ]
+  },
+  "become": {
+    "phonetic": "/bɪˈkʌm/",
+    "defs": [
+      "begin to be"
+    ]
+  },
+  "before": {
+    "phonetic": "/bɪˈfɔːr/",
+    "defs": [
+      "during the period of time preceding"
+    ]
+  },
+  "begin": {
+    "phonetic": "/bɪˈɡɪn/",
+    "defs": [
+      "start; perform the first part of an action"
+    ]
+  },
+  "behind": {
+    "phonetic": "/bɪˈhaɪnd/",
+    "defs": [
+      "at the back of"
+    ]
+  },
+  "benefit": {
+    "phonetic": "/ˈben.ɪ.fɪt/",
+    "defs": [
+      "an advantage or profit gained"
+    ],
+    "examples": [
+      "Regular exercise has many health benefits."
+    ],
+    "synonyms": [
+      "advantage",
+      "gain"
+    ],
+    "antonyms": [
+      "drawback",
+      "disadvantage"
+    ]
+  },
+  "best": {
+    "phonetic": "/best/",
+    "defs": [
+      "of the most excellent"
+    ]
+  },
+  "better": {
+    "phonetic": "/ˈbet.ər/",
+    "defs": [
+      "of a more excellent type"
+    ]
+  },
+  "between": {
+    "phonetic": "/bɪˈtwiːn/",
+    "defs": [
+      "at, into, or across the space separating two objects"
+    ]
+  },
+  "beyond": {
+    "phonetic": "/bɪˈjɒnd/",
+    "defs": [
+      "at or to the further side of"
+    ]
+  },
+  "book": {
+    "phonetic": "/bʊk/",
+    "defs": [
+      "a written or printed work"
+    ]
+  },
+  "build": {
+    "phonetic": "/bɪld/",
+    "defs": [
+      "construct (something)"
+    ]
+  },
+  "business": {
+    "phonetic": "/ˈbɪz.nɪs/",
+    "defs": [
+      "a person's regular occupation, profession, or trade"
+    ]
+  },
+  "cause": {
+    "phonetic": "/kɔːz/",
+    "defs": [
+      "a person or thing that gives rise to an action"
+    ]
+  },
+  "center": {
+    "phonetic": "/ˈsen.tər/",
+    "defs": [
+      "the middle point of a circle or sphere"
+    ]
+  },
+  "century": {
+    "phonetic": "/ˈsen.tʃər.i/",
+    "defs": [
+      "a period of one hundred years"
+    ]
+  },
+  "change": {
+    "phonetic": "/tʃeɪndʒ/",
+    "defs": [
+      "make or become different"
+    ]
+  },
+  "child": {
+    "phonetic": "/tʃaɪld/",
+    "defs": [
+      "a young human being"
+    ]
+  },
+  "choose": {
+    "phonetic": "/tʃuːz/",
+    "defs": [
+      "pick out or select"
+    ]
+  },
+  "clear": {
+    "phonetic": "/klɪər/",
+    "defs": [
+      "easy to perceive, understand, or interpret"
+    ]
+  },
+  "college": {
+    "phonetic": "/ˈkɒl.ɪdʒ/",
+    "defs": [
+      "an educational institution"
+    ]
+  },
+  "common": {
+    "phonetic": "/ˈkɒm.ən/",
+    "defs": [
+      "occurring, found, or done often"
+    ]
+  },
+  "company": {
+    "phonetic": "/ˈkʌm.pə.ni/",
+    "defs": [
+      "a commercial business"
+    ]
+  },
+  "example": {
+    "phonetic": "/ɪɡˈzɑːm.pəl/",
+    "defs": [
+      "a thing characteristic of its kind"
+    ],
+    "examples": [
+      "This sentence is an example of the present perfect."
+    ],
+    "synonyms": [
+      "instance",
+      "case"
+    ]
+  }
+}

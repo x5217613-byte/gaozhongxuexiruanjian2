@@ -1,0 +1,32 @@
+[
+  {
+    "chapterId": "chem43_inorg",
+    "title": "无机实验",
+    "content": [
+      {
+        "type": "text",
+        "text": "常见无机实验操作与设计。"
+      }
+    ]
+  },
+  {
+    "chapterId": "chem43_titrate",
+    "title": "滴定分析",
+    "content": [
+      {
+        "type": "text",
+        "text": "酸碱滴定、氧化还原滴定。"
+      }
+    ]
+  },
+  {
+    "chapterId": "chem43_error",
+    "title": "实验误差分析",
+    "content": [
+      {
+        "type": "text",
+        "text": "实验误差与改进方法。"
+      }
+    ]
+  }
+]

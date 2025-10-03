@@ -1,0 +1,572 @@
+[
+  {
+    "id": "chinese1_ch1_Q1",
+    "chapter": "文言文阅读",
+    "type": "single",
+    "stem": "chinese 示例题 1：关于文言文阅读的基础练习。",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 0,
+    "solution": "文言文阅读 相关练习答案示例：A。",
+    "tags": [
+      "chinese",
+      "必修1",
+      "文言文阅读"
+    ]
+  },
+  {
+    "id": "chinese1_ch1_Q2",
+    "chapter": "文言文阅读",
+    "type": "single",
+    "stem": "chinese 示例题 2：关于文言文阅读的基础练习。",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 0,
+    "solution": "文言文阅读 相关练习答案示例：A。",
+    "tags": [
+      "chinese",
+      "必修1",
+      "文言文阅读"
+    ]
+  },
+  {
+    "id": "chinese1_ch1_Q3",
+    "chapter": "文言文阅读",
+    "type": "single",
+    "stem": "chinese 示例题 3：关于文言文阅读的基础练习。",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 0,
+    "solution": "文言文阅读 相关练习答案示例：A。",
+    "tags": [
+      "chinese",
+      "必修1",
+      "文言文阅读"
+    ]
+  },
+  {
+    "id": "chinese1_ch1_Q4",
+    "chapter": "文言文阅读",
+    "type": "single",
+    "stem": "chinese 示例题 4：关于文言文阅读的基础练习。",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 0,
+    "solution": "文言文阅读 相关练习答案示例：A。",
+    "tags": [
+      "chinese",
+      "必修1",
+      "文言文阅读"
+    ]
+  },
+  {
+    "id": "chinese1_ch1_Q5",
+    "chapter": "文言文阅读",
+    "type": "single",
+    "stem": "chinese 示例题 5：关于文言文阅读的基础练习。",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 0,
+    "solution": "文言文阅读 相关练习答案示例：A。",
+    "tags": [
+      "chinese",
+      "必修1",
+      "文言文阅读"
+    ]
+  },
+  {
+    "id": "chinese1_ch1_Q6",
+    "chapter": "文言文阅读",
+    "type": "single",
+    "stem": "chinese 示例题 6：关于文言文阅读的基础练习。",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 0,
+    "solution": "文言文阅读 相关练习答案示例：A。",
+    "tags": [
+      "chinese",
+      "必修1",
+      "文言文阅读"
+    ]
+  },
+  {
+    "id": "chinese1_ch1_Q7",
+    "chapter": "文言文阅读",
+    "type": "single",
+    "stem": "chinese 示例题 7：关于文言文阅读的基础练习。",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 0,
+    "solution": "文言文阅读 相关练习答案示例：A。",
+    "tags": [
+      "chinese",
+      "必修1",
+      "文言文阅读"
+    ]
+  },
+  {
+    "id": "chinese1_ch1_Q8",
+    "chapter": "文言文阅读",
+    "type": "single",
+    "stem": "chinese 示例题 8：关于文言文阅读的基础练习。",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 0,
+    "solution": "文言文阅读 相关练习答案示例：A。",
+    "tags": [
+      "chinese",
+      "必修1",
+      "文言文阅读"
+    ]
+  },
+  {
+    "id": "chinese1_ch1_Q9",
+    "chapter": "文言文阅读",
+    "type": "single",
+    "stem": "chinese 示例题 9：关于文言文阅读的基础练习。",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 0,
+    "solution": "文言文阅读 相关练习答案示例：A。",
+    "tags": [
+      "chinese",
+      "必修1",
+      "文言文阅读"
+    ]
+  },
+  {
+    "id": "chinese1_ch1_Q10",
+    "chapter": "文言文阅读",
+    "type": "single",
+    "stem": "chinese 示例题 10：关于文言文阅读的基础练习。",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 0,
+    "solution": "文言文阅读 相关练习答案示例：A。",
+    "tags": [
+      "chinese",
+      "必修1",
+      "文言文阅读"
+    ]
+  },
+  {
+    "id": "chinese1_ch2_Q1",
+    "chapter": "现代文阅读",
+    "type": "single",
+    "stem": "chinese 示例题 1：关于现代文阅读的基础练习。",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 0,
+    "solution": "现代文阅读 相关练习答案示例：A。",
+    "tags": [
+      "chinese",
+      "必修1",
+      "现代文阅读"
+    ]
+  },
+  {
+    "id": "chinese1_ch2_Q2",
+    "chapter": "现代文阅读",
+    "type": "single",
+    "stem": "chinese 示例题 2：关于现代文阅读的基础练习。",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 0,
+    "solution": "现代文阅读 相关练习答案示例：A。",
+    "tags": [
+      "chinese",
+      "必修1",
+      "现代文阅读"
+    ]
+  },
+  {
+    "id": "chinese1_ch2_Q3",
+    "chapter": "现代文阅读",
+    "type": "single",
+    "stem": "chinese 示例题 3：关于现代文阅读的基础练习。",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 0,
+    "solution": "现代文阅读 相关练习答案示例：A。",
+    "tags": [
+      "chinese",
+      "必修1",
+      "现代文阅读"
+    ]
+  },
+  {
+    "id": "chinese1_ch2_Q4",
+    "chapter": "现代文阅读",
+    "type": "single",
+    "stem": "chinese 示例题 4：关于现代文阅读的基础练习。",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 0,
+    "solution": "现代文阅读 相关练习答案示例：A。",
+    "tags": [
+      "chinese",
+      "必修1",
+      "现代文阅读"
+    ]
+  },
+  {
+    "id": "chinese1_ch2_Q5",
+    "chapter": "现代文阅读",
+    "type": "single",
+    "stem": "chinese 示例题 5：关于现代文阅读的基础练习。",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 0,
+    "solution": "现代文阅读 相关练习答案示例：A。",
+    "tags": [
+      "chinese",
+      "必修1",
+      "现代文阅读"
+    ]
+  },
+  {
+    "id": "chinese1_ch2_Q6",
+    "chapter": "现代文阅读",
+    "type": "single",
+    "stem": "chinese 示例题 6：关于现代文阅读的基础练习。",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 0,
+    "solution": "现代文阅读 相关练习答案示例：A。",
+    "tags": [
+      "chinese",
+      "必修1",
+      "现代文阅读"
+    ]
+  },
+  {
+    "id": "chinese1_ch2_Q7",
+    "chapter": "现代文阅读",
+    "type": "single",
+    "stem": "chinese 示例题 7：关于现代文阅读的基础练习。",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 0,
+    "solution": "现代文阅读 相关练习答案示例：A。",
+    "tags": [
+      "chinese",
+      "必修1",
+      "现代文阅读"
+    ]
+  },
+  {
+    "id": "chinese1_ch2_Q8",
+    "chapter": "现代文阅读",
+    "type": "single",
+    "stem": "chinese 示例题 8：关于现代文阅读的基础练习。",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 0,
+    "solution": "现代文阅读 相关练习答案示例：A。",
+    "tags": [
+      "chinese",
+      "必修1",
+      "现代文阅读"
+    ]
+  },
+  {
+    "id": "chinese1_ch2_Q9",
+    "chapter": "现代文阅读",
+    "type": "single",
+    "stem": "chinese 示例题 9：关于现代文阅读的基础练习。",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 0,
+    "solution": "现代文阅读 相关练习答案示例：A。",
+    "tags": [
+      "chinese",
+      "必修1",
+      "现代文阅读"
+    ]
+  },
+  {
+    "id": "chinese1_ch2_Q10",
+    "chapter": "现代文阅读",
+    "type": "single",
+    "stem": "chinese 示例题 10：关于现代文阅读的基础练习。",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 0,
+    "solution": "现代文阅读 相关练习答案示例：A。",
+    "tags": [
+      "chinese",
+      "必修1",
+      "现代文阅读"
+    ]
+  },
+  {
+    "id": "chinese1_ch3_Q1",
+    "chapter": "作文训练",
+    "type": "single",
+    "stem": "chinese 示例题 1：关于作文训练的基础练习。",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 0,
+    "solution": "作文训练 相关练习答案示例：A。",
+    "tags": [
+      "chinese",
+      "必修1",
+      "作文训练"
+    ]
+  },
+  {
+    "id": "chinese1_ch3_Q2",
+    "chapter": "作文训练",
+    "type": "single",
+    "stem": "chinese 示例题 2：关于作文训练的基础练习。",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 0,
+    "solution": "作文训练 相关练习答案示例：A。",
+    "tags": [
+      "chinese",
+      "必修1",
+      "作文训练"
+    ]
+  },
+  {
+    "id": "chinese1_ch3_Q3",
+    "chapter": "作文训练",
+    "type": "single",
+    "stem": "chinese 示例题 3：关于作文训练的基础练习。",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 0,
+    "solution": "作文训练 相关练习答案示例：A。",
+    "tags": [
+      "chinese",
+      "必修1",
+      "作文训练"
+    ]
+  },
+  {
+    "id": "chinese1_ch3_Q4",
+    "chapter": "作文训练",
+    "type": "single",
+    "stem": "chinese 示例题 4：关于作文训练的基础练习。",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 0,
+    "solution": "作文训练 相关练习答案示例：A。",
+    "tags": [
+      "chinese",
+      "必修1",
+      "作文训练"
+    ]
+  },
+  {
+    "id": "chinese1_ch3_Q5",
+    "chapter": "作文训练",
+    "type": "single",
+    "stem": "chinese 示例题 5：关于作文训练的基础练习。",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 0,
+    "solution": "作文训练 相关练习答案示例：A。",
+    "tags": [
+      "chinese",
+      "必修1",
+      "作文训练"
+    ]
+  },
+  {
+    "id": "chinese1_ch3_Q6",
+    "chapter": "作文训练",
+    "type": "single",
+    "stem": "chinese 示例题 6：关于作文训练的基础练习。",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 0,
+    "solution": "作文训练 相关练习答案示例：A。",
+    "tags": [
+      "chinese",
+      "必修1",
+      "作文训练"
+    ]
+  },
+  {
+    "id": "chinese1_ch3_Q7",
+    "chapter": "作文训练",
+    "type": "single",
+    "stem": "chinese 示例题 7：关于作文训练的基础练习。",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 0,
+    "solution": "作文训练 相关练习答案示例：A。",
+    "tags": [
+      "chinese",
+      "必修1",
+      "作文训练"
+    ]
+  },
+  {
+    "id": "chinese1_ch3_Q8",
+    "chapter": "作文训练",
+    "type": "single",
+    "stem": "chinese 示例题 8：关于作文训练的基础练习。",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 0,
+    "solution": "作文训练 相关练习答案示例：A。",
+    "tags": [
+      "chinese",
+      "必修1",
+      "作文训练"
+    ]
+  },
+  {
+    "id": "chinese1_ch3_Q9",
+    "chapter": "作文训练",
+    "type": "single",
+    "stem": "chinese 示例题 9：关于作文训练的基础练习。",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 0,
+    "solution": "作文训练 相关练习答案示例：A。",
+    "tags": [
+      "chinese",
+      "必修1",
+      "作文训练"
+    ]
+  },
+  {
+    "id": "chinese1_ch3_Q10",
+    "chapter": "作文训练",
+    "type": "single",
+    "stem": "chinese 示例题 10：关于作文训练的基础练习。",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 0,
+    "solution": "作文训练 相关练习答案示例：A。",
+    "tags": [
+      "chinese",
+      "必修1",
+      "作文训练"
+    ]
+  }
+]

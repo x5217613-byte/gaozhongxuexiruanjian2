@@ -1,0 +1,149 @@
+[
+  {
+    "id": "BIO_EXP_01",
+    "source": "酶促反应速率与温度｜探究温度对酶活性的影响；装置：淀粉-淀粉酶体系、恒温水浴、碘液。",
+    "questions": [
+      {
+        "type": "open",
+        "stem": "写出变量控制：自变量/因变量/控制变量。",
+        "options": [],
+        "answer": null,
+        "marking_guide": "自变量：温度；因变量：反应速率（显色时间/产物量）；控制变量：底物浓度、酶量、pH、反应体积等。"
+      },
+      {
+        "type": "open",
+        "stem": "绘制速率-温度曲线并标注最适温度。",
+        "options": [],
+        "answer": null,
+        "marking_guide": "近似钟形曲线；最适温度附近最高，过高因蛋白变性速率下降。"
+      },
+      {
+        "type": "open",
+        "stem": "说明实验误差来源与改进。",
+        "options": [],
+        "answer": null,
+        "marking_guide": "温度波动、酶活衰减、显色判断主观；改用分光光度计、恒温精度±0.5℃等。"
+      }
+    ],
+    "suggested_time_min": 25
+  },
+  {
+    "id": "BIO_EXP_02",
+    "source": "pH 对酶活性的影响｜探究 pH 对酶活性的影响；装置：缓冲液系列、底物溶液、分光光度计。",
+    "questions": [
+      {
+        "type": "open",
+        "stem": "列出 5 组 pH 及预期趋势。",
+        "options": [],
+        "answer": null,
+        "marking_guide": "pH 过酸/过碱均抑制；存在最适 pH，曲线呈钟形。"
+      },
+      {
+        "type": "open",
+        "stem": "如何排除底物浓度变化干扰？",
+        "options": [],
+        "answer": null,
+        "marking_guide": "保持底物过量或用同批底物等体积加入；设置空白对照。"
+      }
+    ],
+    "suggested_time_min": 25
+  },
+  {
+    "id": "BIO_EXP_03",
+    "source": "光合作用条件探究（漂白叶片法）｜验证光照/叶绿素/CO₂ 对淀粉形成的影响；装置：黑白相间遮光、NaHCO₃/NaOH、酒精脱色、碘液显色。",
+    "questions": [
+      {
+        "type": "open",
+        "stem": "给出三种对照设计以分别验证三个条件。",
+        "options": [],
+        "answer": null,
+        "marking_guide": "遮光叶片/失绿叶片/除去 CO₂ 组与正常组对照。"
+      },
+      {
+        "type": "open",
+        "stem": "为什么要先煮再酒精脱色？",
+        "options": [],
+        "answer": null,
+        "marking_guide": "煮沸破坏膜透性，酒精溶解叶绿素，便于碘液显色观察淀粉分布。"
+      }
+    ],
+    "suggested_time_min": 25
+  },
+  {
+    "id": "BIO_EXP_04",
+    "source": "细胞渗透作用｜观察不同溶液对红细胞/洋葱表皮细胞的影响。",
+    "questions": [
+      {
+        "type": "open",
+        "stem": "分别预测高渗/低渗/等渗下的现象。",
+        "options": [],
+        "answer": null,
+        "marking_guide": "高渗质壁分离/皱缩；低渗吸水膨胀/溶血；等渗基本无变化。"
+      },
+      {
+        "type": "open",
+        "stem": "如何避免观察误差？",
+        "options": [],
+        "answer": null,
+        "marking_guide": "快速更换溶液、盖玻片轻放、同一视野比较；拍照记录。"
+      }
+    ],
+    "suggested_time_min": 25
+  },
+  {
+    "id": "BIO_EXP_05",
+    "source": "无菌操作与平板涂布｜培养环境中空气微生物；装置：酒精灯、平板、棉签。",
+    "questions": [
+      {
+        "type": "open",
+        "stem": "列出无菌操作要点。",
+        "options": [],
+        "answer": null,
+        "marking_guide": "火焰灭菌，开盖时间短，口部灼烧，靠近火焰操作，工具预灭菌。"
+      },
+      {
+        "type": "open",
+        "stem": "设置阴性/阳性对照的意义。",
+        "options": [],
+        "answer": null,
+        "marking_guide": "阴性检验污染；阳性验证培养基与流程有效。"
+      }
+    ],
+    "suggested_time_min": 25
+  },
+  {
+    "id": "BIO_EXP_06",
+    "source": "呼吸作用（酵母产 CO₂）｜用石灰水或气体传感器检测产气速率。",
+    "questions": [
+      {
+        "type": "open",
+        "stem": "控制变量与对照。",
+        "options": [],
+        "answer": null,
+        "marking_guide": "温度、糖浓度、酵母量、pH；无糖/灭活酵母为对照。"
+      },
+      {
+        "type": "open",
+        "stem": "有氧/无氧条件如何区分？",
+        "options": [],
+        "answer": null,
+        "marking_guide": "摇瓶通气为有氧；密闭或加液封油为无氧。"
+      }
+    ],
+    "suggested_time_min": 25
+  },
+  {
+    "id": "BIO_EXP_07",
+    "source": "生态系统取样与多样性指数｜样方法/线形样方法估算物种多样性。",
+    "questions": [
+      {
+        "type": "open",
+        "stem": "给出 Shannon 指数计算流程。",
+        "options": [],
+        "answer": null,
+        "marking_guide": "按 p_i = n_i/N 计算 H' = -Σ p_i ln p_i，比较不同样地的多样性。"
+      }
+    ],
+    "suggested_time_min": 25
+  }
+]

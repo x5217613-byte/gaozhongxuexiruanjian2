@@ -1,0 +1,114 @@
+[
+  {
+    "id": "CHEM_EXP_01",
+    "source": "酸碱滴定（NaOH 标定 HCl）｜使用酚酞指示剂或 pH 计；计算溶液浓度。",
+    "questions": [
+      {
+        "type": "open",
+        "stem": "写出滴定数据处理。",
+        "options": [],
+        "answer": null,
+        "marking_guide": "基准液体积/浓度→物质的量，按反应式求待测浓度；重复取平均。"
+      },
+      {
+        "type": "open",
+        "stem": "误差来源与改进。",
+        "options": [],
+        "answer": null,
+        "marking_guide": "读数视差、终点判断、移液不准确→采用 pH 计、外洗内不洗规范。"
+      }
+    ],
+    "suggested_time_min": 25
+  },
+  {
+    "id": "CHEM_EXP_02",
+    "source": "金属活动性顺序｜金属与酸/盐溶液反应现象比较。",
+    "questions": [
+      {
+        "type": "open",
+        "stem": "给出由强到弱的顺序并说明依据。",
+        "options": [],
+        "answer": null,
+        "marking_guide": "依据置换与反应速率；注意保护层因素。"
+      }
+    ],
+    "suggested_time_min": 25
+  },
+  {
+    "id": "CHEM_EXP_03",
+    "source": "气体制备与收集（O₂/H₂/CO₂）｜装置密封性检查、排水/向上/向下排空气法。",
+    "questions": [
+      {
+        "type": "open",
+        "stem": "三种气体的收集方式与检验。",
+        "options": [],
+        "answer": null,
+        "marking_guide": "O₂：向上排空气/集气瓶，复燃现象；H₂：排水法，火焰色；CO₂：向下排空气，石灰水。"
+      }
+    ],
+    "suggested_time_min": 25
+  },
+  {
+    "id": "CHEM_EXP_04",
+    "source": "化学反应速率与平衡｜温度/浓度/催化剂对速率影响；平衡移动。",
+    "questions": [
+      {
+        "type": "open",
+        "stem": "速率实验的变量控制。",
+        "options": [],
+        "answer": null,
+        "marking_guide": "单因素改变，其余不变；定量可用比色法。"
+      },
+      {
+        "type": "open",
+        "stem": "勒夏特列原理举例。",
+        "options": [],
+        "answer": null,
+        "marking_guide": "改变温度/压力/浓度对平衡方向的影响。"
+      }
+    ],
+    "suggested_time_min": 25
+  },
+  {
+    "id": "CHEM_EXP_05",
+    "source": "缓冲溶液的配制与验证｜按 Henderson-Hasselbalch 公式配制并验证缓冲能力。",
+    "questions": [
+      {
+        "type": "open",
+        "stem": "写出配方与计算。",
+        "options": [],
+        "answer": null,
+        "marking_guide": "pH=pKa+log([A-]/[HA])，设定浓度与体积求比例。"
+      }
+    ],
+    "suggested_time_min": 25
+  },
+  {
+    "id": "CHEM_EXP_06",
+    "source": "有机物官能团的检验｜醛酮羧基的定性鉴别。",
+    "questions": [
+      {
+        "type": "open",
+        "stem": "写出 2-4DNPH、银镜反应的判据与注意事项。",
+        "options": [],
+        "answer": null,
+        "marking_guide": "橙色沉淀、银镜生成；需新制试剂、防止爆聚。"
+      }
+    ],
+    "suggested_time_min": 25
+  },
+  {
+    "id": "CHEM_EXP_07",
+    "source": "电解与电镀演示｜观察电极反应与质量变化。",
+    "questions": [
+      {
+        "type": "open",
+        "stem": "法拉第定律的应用。",
+        "options": [],
+        "answer": null,
+        "marking_guide": "m = (MIt)/(nF)。"
+      }
+    ],
+    "suggested_time_min": 25
+  }
+]
