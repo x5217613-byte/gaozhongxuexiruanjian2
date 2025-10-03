@@ -1,0 +1,32 @@
+[
+  {
+    "chapterId": "math23_prob",
+    "title": "条件概率与独立性",
+    "content": [
+      {
+        "type": "text",
+        "text": "条件概率公式与事件独立性。"
+      }
+    ]
+  },
+  {
+    "chapterId": "math23_dist",
+    "title": "概率分布",
+    "content": [
+      {
+        "type": "text",
+        "text": "离散分布与连续分布。"
+      }
+    ]
+  },
+  {
+    "chapterId": "math23_exam",
+    "title": "综合应用",
+    "content": [
+      {
+        "type": "text",
+        "text": "高考常见概率综合题。"
+      }
+    ]
+  }
+]

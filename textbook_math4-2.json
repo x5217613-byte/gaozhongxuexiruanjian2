@@ -1,0 +1,32 @@
+[
+  {
+    "chapterId": "math42_para",
+    "title": "参数方程",
+    "content": [
+      {
+        "type": "text",
+        "text": "直线与圆的参数方程。"
+      }
+    ]
+  },
+  {
+    "chapterId": "math42_polar",
+    "title": "极坐标",
+    "content": [
+      {
+        "type": "text",
+        "text": "极坐标与曲线方程。"
+      }
+    ]
+  },
+  {
+    "chapterId": "math42_exam",
+    "title": "曲线综合题",
+    "content": [
+      {
+        "type": "text",
+        "text": "参数方程与极坐标结合的题目。"
+      }
+    ]
+  }
+]

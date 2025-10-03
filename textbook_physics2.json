@@ -1,0 +1,32 @@
+[
+  {
+    "chapterId": "phy2_thermo",
+    "title": "热学基础",
+    "content": [
+      {
+        "type": "text",
+        "text": "内能、热量、比热容、热力学第一定律。"
+      }
+    ]
+  },
+  {
+    "chapterId": "phy2_electric",
+    "title": "电场与电路",
+    "content": [
+      {
+        "type": "text",
+        "text": "电荷、电场强度、电势差、欧姆定律。"
+      }
+    ]
+  },
+  {
+    "chapterId": "phy2_magnet",
+    "title": "磁场与电磁学",
+    "content": [
+      {
+        "type": "text",
+        "text": "磁感应强度、安培力、洛伦兹力。"
+      }
+    ]
+  }
+]

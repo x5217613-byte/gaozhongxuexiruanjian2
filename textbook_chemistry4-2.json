@@ -1,0 +1,32 @@
+[
+  {
+    "chapterId": "chem42_hydro",
+    "title": "烃类",
+    "content": [
+      {
+        "type": "text",
+        "text": "烷烃、烯烃、炔烃、芳香烃。"
+      }
+    ]
+  },
+  {
+    "chapterId": "chem42_oxy",
+    "title": "含氧有机物",
+    "content": [
+      {
+        "type": "text",
+        "text": "醇、醛、酸、酯类的性质。"
+      }
+    ]
+  },
+  {
+    "chapterId": "chem42_nitro",
+    "title": "含氮有机物",
+    "content": [
+      {
+        "type": "text",
+        "text": "氨基酸与蛋白质的基本结构与性质。"
+      }
+    ]
+  }
+]

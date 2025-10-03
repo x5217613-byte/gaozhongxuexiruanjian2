@@ -1,0 +1,32 @@
+[
+  {
+    "chapterId": "math21_tri",
+    "title": "三角函数拓展",
+    "content": [
+      {
+        "type": "text",
+        "text": "三角函数图像与性质的拓展。"
+      }
+    ]
+  },
+  {
+    "chapterId": "math21_id",
+    "title": "三角恒等式应用",
+    "content": [
+      {
+        "type": "text",
+        "text": "三角恒等式在计算与证明中的应用。"
+      }
+    ]
+  },
+  {
+    "chapterId": "math21_seq",
+    "title": "数列极限与递推",
+    "content": [
+      {
+        "type": "text",
+        "text": "数列的极限与递推关系。"
+      }
+    ]
+  }
+]

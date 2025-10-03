@@ -1,0 +1,32 @@
+[
+  {
+    "chapterId": "math22_vec",
+    "title": "空间向量方法",
+    "content": [
+      {
+        "type": "text",
+        "text": "空间向量及其运算，应用于几何证明。"
+      }
+    ]
+  },
+  {
+    "chapterId": "math22_line",
+    "title": "直线与平面方程",
+    "content": [
+      {
+        "type": "text",
+        "text": "直线与平面的解析几何方程及位置关系。"
+      }
+    ]
+  },
+  {
+    "chapterId": "math22_sphere",
+    "title": "球面与空间几何",
+    "content": [
+      {
+        "type": "text",
+        "text": "球面方程与空间几何应用。"
+      }
+    ]
+  }
+]

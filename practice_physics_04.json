@@ -1,0 +1,32 @@
+[
+  {
+    "chapterId": "phy31_ind",
+    "title": "电磁感应",
+    "content": [
+      {
+        "type": "text",
+        "text": "法拉第电磁感应定律与楞次定律。"
+      }
+    ]
+  },
+  {
+    "chapterId": "phy31_ac",
+    "title": "交变电流",
+    "content": [
+      {
+        "type": "text",
+        "text": "交变电流的产生与电路分析。"
+      }
+    ]
+  },
+  {
+    "chapterId": "phy31_wave",
+    "title": "电磁波",
+    "content": [
+      {
+        "type": "text",
+        "text": "电磁波的传播与应用。"
+      }
+    ]
+  }
+]

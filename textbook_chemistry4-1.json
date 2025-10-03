@@ -1,0 +1,32 @@
+[
+  {
+    "chapterId": "chem41_eq",
+    "title": "化学平衡",
+    "content": [
+      {
+        "type": "text",
+        "text": "化学平衡与勒夏特列原理。"
+      }
+    ]
+  },
+  {
+    "chapterId": "chem41_ion",
+    "title": "电解质溶液",
+    "content": [
+      {
+        "type": "text",
+        "text": "离子平衡与溶液pH。"
+      }
+    ]
+  },
+  {
+    "chapterId": "chem41_cell",
+    "title": "原电池与电解",
+    "content": [
+      {
+        "type": "text",
+        "text": "原电池工作原理与电解池应用。"
+      }
+    ]
+  }
+]

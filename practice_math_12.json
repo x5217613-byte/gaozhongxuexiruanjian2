@@ -1,0 +1,32 @@
+[
+  {
+    "chapterId": "math41_vec",
+    "title": "向量法几何证明",
+    "content": [
+      {
+        "type": "text",
+        "text": "利用向量运算证明几何命题。"
+      }
+    ]
+  },
+  {
+    "chapterId": "math41_coord",
+    "title": "坐标法几何证明",
+    "content": [
+      {
+        "type": "text",
+        "text": "用坐标法证明几何问题。"
+      }
+    ]
+  },
+  {
+    "chapterId": "math41_exam",
+    "title": "高考几何大题",
+    "content": [
+      {
+        "type": "text",
+        "text": "典型几何压轴题。"
+      }
+    ]
+  }
+]

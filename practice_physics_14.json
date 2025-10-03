@@ -1,0 +1,32 @@
+[
+  {
+    "chapterId": "phy3_wave",
+    "title": "机械波",
+    "content": [
+      {
+        "type": "text",
+        "text": "波的形成、传播、干涉与共振。"
+      }
+    ]
+  },
+  {
+    "chapterId": "phy3_sound",
+    "title": "声学",
+    "content": [
+      {
+        "type": "text",
+        "text": "声波传播与多普勒效应。"
+      }
+    ]
+  },
+  {
+    "chapterId": "phy3_light",
+    "title": "光学",
+    "content": [
+      {
+        "type": "text",
+        "text": "光的反射、折射、干涉与衍射。"
+      }
+    ]
+  }
+]

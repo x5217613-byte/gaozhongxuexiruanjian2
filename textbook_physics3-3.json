@@ -1,0 +1,32 @@
+[
+  {
+    "chapterId": "phy33_photo",
+    "title": "光电效应",
+    "content": [
+      {
+        "type": "text",
+        "text": "光电效应与量子假说。"
+      }
+    ]
+  },
+  {
+    "chapterId": "phy33_atom",
+    "title": "原子结构与能级",
+    "content": [
+      {
+        "type": "text",
+        "text": "原子能级跃迁与光谱。"
+      }
+    ]
+  },
+  {
+    "chapterId": "phy33_rel",
+    "title": "相对论基础",
+    "content": [
+      {
+        "type": "text",
+        "text": "狭义相对论的基本原理。"
+      }
+    ]
+  }
+]

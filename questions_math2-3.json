@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "math23_prob_Q1",
+    "type": "single",
+    "chapterId": "math23_prob",
+    "stem": "条件概率公式P(A|B)=?",
+    "options": [
+      "P(A∩B)/P(B)",
+      "P(A)/P(B)",
+      "P(B)/P(A)",
+      "P(A)P(B)"
+    ],
+    "answer": 0,
+    "solution": "条件概率P(A|B)=P(A∩B)/P(B)。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_prob_Q2",
+    "type": "single",
+    "chapterId": "math23_prob",
+    "stem": "条件概率公式P(A|B)=?",
+    "options": [
+      "P(A∩B)/P(B)",
+      "P(A)/P(B)",
+      "P(B)/P(A)",
+      "P(A)P(B)"
+    ],
+    "answer": 0,
+    "solution": "条件概率P(A|B)=P(A∩B)/P(B)。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_prob_Q3",
+    "type": "single",
+    "chapterId": "math23_prob",
+    "stem": "条件概率公式P(A|B)=?",
+    "options": [
+      "P(A∩B)/P(B)",
+      "P(A)/P(B)",
+      "P(B)/P(A)",
+      "P(A)P(B)"
+    ],
+    "answer": 0,
+    "solution": "条件概率P(A|B)=P(A∩B)/P(B)。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_prob_Q4",
+    "type": "single",
+    "chapterId": "math23_prob",
+    "stem": "条件概率公式P(A|B)=?",
+    "options": [
+      "P(A∩B)/P(B)",
+      "P(A)/P(B)",
+      "P(B)/P(A)",
+      "P(A)P(B)"
+    ],
+    "answer": 0,
+    "solution": "条件概率P(A|B)=P(A∩B)/P(B)。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_prob_Q5",
+    "type": "single",
+    "chapterId": "math23_prob",
+    "stem": "条件概率公式P(A|B)=?",
+    "options": [
+      "P(A∩B)/P(B)",
+      "P(A)/P(B)",
+      "P(B)/P(A)",
+      "P(A)P(B)"
+    ],
+    "answer": 0,
+    "solution": "条件概率P(A|B)=P(A∩B)/P(B)。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_prob_Q6",
+    "type": "single",
+    "chapterId": "math23_prob",
+    "stem": "条件概率公式P(A|B)=?",
+    "options": [
+      "P(A∩B)/P(B)",
+      "P(A)/P(B)",
+      "P(B)/P(A)",
+      "P(A)P(B)"
+    ],
+    "answer": 0,
+    "solution": "条件概率P(A|B)=P(A∩B)/P(B)。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_prob_Q7",
+    "type": "single",
+    "chapterId": "math23_prob",
+    "stem": "条件概率公式P(A|B)=?",
+    "options": [
+      "P(A∩B)/P(B)",
+      "P(A)/P(B)",
+      "P(B)/P(A)",
+      "P(A)P(B)"
+    ],
+    "answer": 0,
+    "solution": "条件概率P(A|B)=P(A∩B)/P(B)。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_prob_Q8",
+    "type": "single",
+    "chapterId": "math23_prob",
+    "stem": "条件概率公式P(A|B)=?",
+    "options": [
+      "P(A∩B)/P(B)",
+      "P(A)/P(B)",
+      "P(B)/P(A)",
+      "P(A)P(B)"
+    ],
+    "answer": 0,
+    "solution": "条件概率P(A|B)=P(A∩B)/P(B)。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_prob_Q9",
+    "type": "single",
+    "chapterId": "math23_prob",
+    "stem": "条件概率公式P(A|B)=?",
+    "options": [
+      "P(A∩B)/P(B)",
+      "P(A)/P(B)",
+      "P(B)/P(A)",
+      "P(A)P(B)"
+    ],
+    "answer": 0,
+    "solution": "条件概率P(A|B)=P(A∩B)/P(B)。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_prob_Q10",
+    "type": "single",
+    "chapterId": "math23_prob",
+    "stem": "条件概率公式P(A|B)=?",
+    "options": [
+      "P(A∩B)/P(B)",
+      "P(A)/P(B)",
+      "P(B)/P(A)",
+      "P(A)P(B)"
+    ],
+    "answer": 0,
+    "solution": "条件概率P(A|B)=P(A∩B)/P(B)。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_prob_Q11",
+    "type": "single",
+    "chapterId": "math23_prob",
+    "stem": "条件概率公式P(A|B)=?",
+    "options": [
+      "P(A∩B)/P(B)",
+      "P(A)/P(B)",
+      "P(B)/P(A)",
+      "P(A)P(B)"
+    ],
+    "answer": 0,
+    "solution": "条件概率P(A|B)=P(A∩B)/P(B)。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_prob_Q12",
+    "type": "single",
+    "chapterId": "math23_prob",
+    "stem": "条件概率公式P(A|B)=?",
+    "options": [
+      "P(A∩B)/P(B)",
+      "P(A)/P(B)",
+      "P(B)/P(A)",
+      "P(A)P(B)"
+    ],
+    "answer": 0,
+    "solution": "条件概率P(A|B)=P(A∩B)/P(B)。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_prob_Q13",
+    "type": "single",
+    "chapterId": "math23_prob",
+    "stem": "条件概率公式P(A|B)=?",
+    "options": [
+      "P(A∩B)/P(B)",
+      "P(A)/P(B)",
+      "P(B)/P(A)",
+      "P(A)P(B)"
+    ],
+    "answer": 0,
+    "solution": "条件概率P(A|B)=P(A∩B)/P(B)。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_prob_Q14",
+    "type": "single",
+    "chapterId": "math23_prob",
+    "stem": "条件概率公式P(A|B)=?",
+    "options": [
+      "P(A∩B)/P(B)",
+      "P(A)/P(B)",
+      "P(B)/P(A)",
+      "P(A)P(B)"
+    ],
+    "answer": 0,
+    "solution": "条件概率P(A|B)=P(A∩B)/P(B)。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_prob_Q15",
+    "type": "single",
+    "chapterId": "math23_prob",
+    "stem": "条件概率公式P(A|B)=?",
+    "options": [
+      "P(A∩B)/P(B)",
+      "P(A)/P(B)",
+      "P(B)/P(A)",
+      "P(A)P(B)"
+    ],
+    "answer": 0,
+    "solution": "条件概率P(A|B)=P(A∩B)/P(B)。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_prob_Q16",
+    "type": "single",
+    "chapterId": "math23_prob",
+    "stem": "条件概率公式P(A|B)=?",
+    "options": [
+      "P(A∩B)/P(B)",
+      "P(A)/P(B)",
+      "P(B)/P(A)",
+      "P(A)P(B)"
+    ],
+    "answer": 0,
+    "solution": "条件概率P(A|B)=P(A∩B)/P(B)。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_prob_Q17",
+    "type": "single",
+    "chapterId": "math23_prob",
+    "stem": "条件概率公式P(A|B)=?",
+    "options": [
+      "P(A∩B)/P(B)",
+      "P(A)/P(B)",
+      "P(B)/P(A)",
+      "P(A)P(B)"
+    ],
+    "answer": 0,
+    "solution": "条件概率P(A|B)=P(A∩B)/P(B)。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_prob_Q18",
+    "type": "single",
+    "chapterId": "math23_prob",
+    "stem": "条件概率公式P(A|B)=?",
+    "options": [
+      "P(A∩B)/P(B)",
+      "P(A)/P(B)",
+      "P(B)/P(A)",
+      "P(A)P(B)"
+    ],
+    "answer": 0,
+    "solution": "条件概率P(A|B)=P(A∩B)/P(B)。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_prob_Q19",
+    "type": "single",
+    "chapterId": "math23_prob",
+    "stem": "条件概率公式P(A|B)=?",
+    "options": [
+      "P(A∩B)/P(B)",
+      "P(A)/P(B)",
+      "P(B)/P(A)",
+      "P(A)P(B)"
+    ],
+    "answer": 0,
+    "solution": "条件概率P(A|B)=P(A∩B)/P(B)。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_prob_Q20",
+    "type": "single",
+    "chapterId": "math23_prob",
+    "stem": "条件概率公式P(A|B)=?",
+    "options": [
+      "P(A∩B)/P(B)",
+      "P(A)/P(B)",
+      "P(B)/P(A)",
+      "P(A)P(B)"
+    ],
+    "answer": 0,
+    "solution": "条件概率P(A|B)=P(A∩B)/P(B)。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_dist_Q1",
+    "type": "single",
+    "chapterId": "math23_dist",
+    "stem": "正态分布曲线特点？",
+    "options": [
+      "对称",
+      "不对称",
+      "离散",
+      "均匀"
+    ],
+    "answer": 0,
+    "solution": "正态分布曲线关于均值对称。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_dist_Q2",
+    "type": "single",
+    "chapterId": "math23_dist",
+    "stem": "正态分布曲线特点？",
+    "options": [
+      "对称",
+      "不对称",
+      "离散",
+      "均匀"
+    ],
+    "answer": 0,
+    "solution": "正态分布曲线关于均值对称。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_dist_Q3",
+    "type": "single",
+    "chapterId": "math23_dist",
+    "stem": "正态分布曲线特点？",
+    "options": [
+      "对称",
+      "不对称",
+      "离散",
+      "均匀"
+    ],
+    "answer": 0,
+    "solution": "正态分布曲线关于均值对称。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_dist_Q4",
+    "type": "single",
+    "chapterId": "math23_dist",
+    "stem": "正态分布曲线特点？",
+    "options": [
+      "对称",
+      "不对称",
+      "离散",
+      "均匀"
+    ],
+    "answer": 0,
+    "solution": "正态分布曲线关于均值对称。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_dist_Q5",
+    "type": "single",
+    "chapterId": "math23_dist",
+    "stem": "正态分布曲线特点？",
+    "options": [
+      "对称",
+      "不对称",
+      "离散",
+      "均匀"
+    ],
+    "answer": 0,
+    "solution": "正态分布曲线关于均值对称。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_dist_Q6",
+    "type": "single",
+    "chapterId": "math23_dist",
+    "stem": "正态分布曲线特点？",
+    "options": [
+      "对称",
+      "不对称",
+      "离散",
+      "均匀"
+    ],
+    "answer": 0,
+    "solution": "正态分布曲线关于均值对称。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_dist_Q7",
+    "type": "single",
+    "chapterId": "math23_dist",
+    "stem": "正态分布曲线特点？",
+    "options": [
+      "对称",
+      "不对称",
+      "离散",
+      "均匀"
+    ],
+    "answer": 0,
+    "solution": "正态分布曲线关于均值对称。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_dist_Q8",
+    "type": "single",
+    "chapterId": "math23_dist",
+    "stem": "正态分布曲线特点？",
+    "options": [
+      "对称",
+      "不对称",
+      "离散",
+      "均匀"
+    ],
+    "answer": 0,
+    "solution": "正态分布曲线关于均值对称。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_dist_Q9",
+    "type": "single",
+    "chapterId": "math23_dist",
+    "stem": "正态分布曲线特点？",
+    "options": [
+      "对称",
+      "不对称",
+      "离散",
+      "均匀"
+    ],
+    "answer": 0,
+    "solution": "正态分布曲线关于均值对称。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_dist_Q10",
+    "type": "single",
+    "chapterId": "math23_dist",
+    "stem": "正态分布曲线特点？",
+    "options": [
+      "对称",
+      "不对称",
+      "离散",
+      "均匀"
+    ],
+    "answer": 0,
+    "solution": "正态分布曲线关于均值对称。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_dist_Q11",
+    "type": "single",
+    "chapterId": "math23_dist",
+    "stem": "正态分布曲线特点？",
+    "options": [
+      "对称",
+      "不对称",
+      "离散",
+      "均匀"
+    ],
+    "answer": 0,
+    "solution": "正态分布曲线关于均值对称。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_dist_Q12",
+    "type": "single",
+    "chapterId": "math23_dist",
+    "stem": "正态分布曲线特点？",
+    "options": [
+      "对称",
+      "不对称",
+      "离散",
+      "均匀"
+    ],
+    "answer": 0,
+    "solution": "正态分布曲线关于均值对称。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_dist_Q13",
+    "type": "single",
+    "chapterId": "math23_dist",
+    "stem": "正态分布曲线特点？",
+    "options": [
+      "对称",
+      "不对称",
+      "离散",
+      "均匀"
+    ],
+    "answer": 0,
+    "solution": "正态分布曲线关于均值对称。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_dist_Q14",
+    "type": "single",
+    "chapterId": "math23_dist",
+    "stem": "正态分布曲线特点？",
+    "options": [
+      "对称",
+      "不对称",
+      "离散",
+      "均匀"
+    ],
+    "answer": 0,
+    "solution": "正态分布曲线关于均值对称。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_dist_Q15",
+    "type": "single",
+    "chapterId": "math23_dist",
+    "stem": "正态分布曲线特点？",
+    "options": [
+      "对称",
+      "不对称",
+      "离散",
+      "均匀"
+    ],
+    "answer": 0,
+    "solution": "正态分布曲线关于均值对称。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_dist_Q16",
+    "type": "single",
+    "chapterId": "math23_dist",
+    "stem": "正态分布曲线特点？",
+    "options": [
+      "对称",
+      "不对称",
+      "离散",
+      "均匀"
+    ],
+    "answer": 0,
+    "solution": "正态分布曲线关于均值对称。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_dist_Q17",
+    "type": "single",
+    "chapterId": "math23_dist",
+    "stem": "正态分布曲线特点？",
+    "options": [
+      "对称",
+      "不对称",
+      "离散",
+      "均匀"
+    ],
+    "answer": 0,
+    "solution": "正态分布曲线关于均值对称。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_dist_Q18",
+    "type": "single",
+    "chapterId": "math23_dist",
+    "stem": "正态分布曲线特点？",
+    "options": [
+      "对称",
+      "不对称",
+      "离散",
+      "均匀"
+    ],
+    "answer": 0,
+    "solution": "正态分布曲线关于均值对称。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_dist_Q19",
+    "type": "single",
+    "chapterId": "math23_dist",
+    "stem": "正态分布曲线特点？",
+    "options": [
+      "对称",
+      "不对称",
+      "离散",
+      "均匀"
+    ],
+    "answer": 0,
+    "solution": "正态分布曲线关于均值对称。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_dist_Q20",
+    "type": "single",
+    "chapterId": "math23_dist",
+    "stem": "正态分布曲线特点？",
+    "options": [
+      "对称",
+      "不对称",
+      "离散",
+      "均匀"
+    ],
+    "answer": 0,
+    "solution": "正态分布曲线关于均值对称。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_exam_Q1",
+    "type": "single",
+    "chapterId": "math23_exam",
+    "stem": "二项分布B(n,p)的数学期望是？",
+    "options": [
+      "np",
+      "n/p",
+      "p/n",
+      "n²p"
+    ],
+    "answer": 0,
+    "solution": "E(X)=np。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_exam_Q2",
+    "type": "single",
+    "chapterId": "math23_exam",
+    "stem": "二项分布B(n,p)的数学期望是？",
+    "options": [
+      "np",
+      "n/p",
+      "p/n",
+      "n²p"
+    ],
+    "answer": 0,
+    "solution": "E(X)=np。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_exam_Q3",
+    "type": "single",
+    "chapterId": "math23_exam",
+    "stem": "二项分布B(n,p)的数学期望是？",
+    "options": [
+      "np",
+      "n/p",
+      "p/n",
+      "n²p"
+    ],
+    "answer": 0,
+    "solution": "E(X)=np。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_exam_Q4",
+    "type": "single",
+    "chapterId": "math23_exam",
+    "stem": "二项分布B(n,p)的数学期望是？",
+    "options": [
+      "np",
+      "n/p",
+      "p/n",
+      "n²p"
+    ],
+    "answer": 0,
+    "solution": "E(X)=np。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_exam_Q5",
+    "type": "single",
+    "chapterId": "math23_exam",
+    "stem": "二项分布B(n,p)的数学期望是？",
+    "options": [
+      "np",
+      "n/p",
+      "p/n",
+      "n²p"
+    ],
+    "answer": 0,
+    "solution": "E(X)=np。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_exam_Q6",
+    "type": "single",
+    "chapterId": "math23_exam",
+    "stem": "二项分布B(n,p)的数学期望是？",
+    "options": [
+      "np",
+      "n/p",
+      "p/n",
+      "n²p"
+    ],
+    "answer": 0,
+    "solution": "E(X)=np。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_exam_Q7",
+    "type": "single",
+    "chapterId": "math23_exam",
+    "stem": "二项分布B(n,p)的数学期望是？",
+    "options": [
+      "np",
+      "n/p",
+      "p/n",
+      "n²p"
+    ],
+    "answer": 0,
+    "solution": "E(X)=np。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_exam_Q8",
+    "type": "single",
+    "chapterId": "math23_exam",
+    "stem": "二项分布B(n,p)的数学期望是？",
+    "options": [
+      "np",
+      "n/p",
+      "p/n",
+      "n²p"
+    ],
+    "answer": 0,
+    "solution": "E(X)=np。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_exam_Q9",
+    "type": "single",
+    "chapterId": "math23_exam",
+    "stem": "二项分布B(n,p)的数学期望是？",
+    "options": [
+      "np",
+      "n/p",
+      "p/n",
+      "n²p"
+    ],
+    "answer": 0,
+    "solution": "E(X)=np。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_exam_Q10",
+    "type": "single",
+    "chapterId": "math23_exam",
+    "stem": "二项分布B(n,p)的数学期望是？",
+    "options": [
+      "np",
+      "n/p",
+      "p/n",
+      "n²p"
+    ],
+    "answer": 0,
+    "solution": "E(X)=np。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_exam_Q11",
+    "type": "single",
+    "chapterId": "math23_exam",
+    "stem": "二项分布B(n,p)的数学期望是？",
+    "options": [
+      "np",
+      "n/p",
+      "p/n",
+      "n²p"
+    ],
+    "answer": 0,
+    "solution": "E(X)=np。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_exam_Q12",
+    "type": "single",
+    "chapterId": "math23_exam",
+    "stem": "二项分布B(n,p)的数学期望是？",
+    "options": [
+      "np",
+      "n/p",
+      "p/n",
+      "n²p"
+    ],
+    "answer": 0,
+    "solution": "E(X)=np。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_exam_Q13",
+    "type": "single",
+    "chapterId": "math23_exam",
+    "stem": "二项分布B(n,p)的数学期望是？",
+    "options": [
+      "np",
+      "n/p",
+      "p/n",
+      "n²p"
+    ],
+    "answer": 0,
+    "solution": "E(X)=np。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_exam_Q14",
+    "type": "single",
+    "chapterId": "math23_exam",
+    "stem": "二项分布B(n,p)的数学期望是？",
+    "options": [
+      "np",
+      "n/p",
+      "p/n",
+      "n²p"
+    ],
+    "answer": 0,
+    "solution": "E(X)=np。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_exam_Q15",
+    "type": "single",
+    "chapterId": "math23_exam",
+    "stem": "二项分布B(n,p)的数学期望是？",
+    "options": [
+      "np",
+      "n/p",
+      "p/n",
+      "n²p"
+    ],
+    "answer": 0,
+    "solution": "E(X)=np。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_exam_Q16",
+    "type": "single",
+    "chapterId": "math23_exam",
+    "stem": "二项分布B(n,p)的数学期望是？",
+    "options": [
+      "np",
+      "n/p",
+      "p/n",
+      "n²p"
+    ],
+    "answer": 0,
+    "solution": "E(X)=np。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_exam_Q17",
+    "type": "single",
+    "chapterId": "math23_exam",
+    "stem": "二项分布B(n,p)的数学期望是？",
+    "options": [
+      "np",
+      "n/p",
+      "p/n",
+      "n²p"
+    ],
+    "answer": 0,
+    "solution": "E(X)=np。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_exam_Q18",
+    "type": "single",
+    "chapterId": "math23_exam",
+    "stem": "二项分布B(n,p)的数学期望是？",
+    "options": [
+      "np",
+      "n/p",
+      "p/n",
+      "n²p"
+    ],
+    "answer": 0,
+    "solution": "E(X)=np。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_exam_Q19",
+    "type": "single",
+    "chapterId": "math23_exam",
+    "stem": "二项分布B(n,p)的数学期望是？",
+    "options": [
+      "np",
+      "n/p",
+      "p/n",
+      "n²p"
+    ],
+    "answer": 0,
+    "solution": "E(X)=np。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  },
+  {
+    "id": "math23_exam_Q20",
+    "type": "single",
+    "chapterId": "math23_exam",
+    "stem": "二项分布B(n,p)的数学期望是？",
+    "options": [
+      "np",
+      "n/p",
+      "p/n",
+      "n²p"
+    ],
+    "answer": 0,
+    "solution": "E(X)=np。",
+    "tags": [
+      "数学",
+      "选修2-3"
+    ]
+  }
+]

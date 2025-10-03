@@ -1,0 +1,32 @@
+[
+  {
+    "chapterId": "phy32_shm",
+    "title": "简谐振动",
+    "content": [
+      {
+        "type": "text",
+        "text": "简谐振动的规律与能量交换。"
+      }
+    ]
+  },
+  {
+    "chapterId": "phy32_wave",
+    "title": "波的干涉与共振",
+    "content": [
+      {
+        "type": "text",
+        "text": "干涉、驻波、共振现象。"
+      }
+    ]
+  },
+  {
+    "chapterId": "phy32_doppler",
+    "title": "多普勒效应",
+    "content": [
+      {
+        "type": "text",
+        "text": "多普勒效应及应用。"
+      }
+    ]
+  }
+]

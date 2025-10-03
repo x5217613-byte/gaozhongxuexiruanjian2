@@ -1,0 +1,107 @@
+[
+  {
+    "id": "GEO_EXP_01",
+    "source": "城市热岛观测｜对比城区/郊区温度；装置：温度计/数据记录仪，时间序列测量。",
+    "questions": [
+      {
+        "type": "open",
+        "stem": "采样时间与点位如何布设？",
+        "options": [],
+        "answer": null,
+        "marking_guide": "同一时段多点同步，避开遮阴/水体近旁，记录经纬度。"
+      },
+      {
+        "type": "open",
+        "stem": "如何排除地形与风向影响？",
+        "options": [],
+        "answer": null,
+        "marking_guide": "选择相似下垫面，记录风速风向、海拔，必要时多日平均。"
+      }
+    ],
+    "suggested_time_min": 25
+  },
+  {
+    "id": "GEO_EXP_02",
+    "source": "河流流速测定（浮标法）｜测量断面平均流速并估算流量。",
+    "questions": [
+      {
+        "type": "open",
+        "stem": "写出计算步骤。",
+        "options": [],
+        "answer": null,
+        "marking_guide": "多次测时求表层速度，乘以修正系数得平均速度；流量=速度×断面面积。"
+      }
+    ],
+    "suggested_time_min": 25
+  },
+  {
+    "id": "GEO_EXP_03",
+    "source": "土壤含水率与质地｜烘干法测含水率，沉降法判质地。",
+    "questions": [
+      {
+        "type": "open",
+        "stem": "含水率计算公式？",
+        "options": [],
+        "answer": null,
+        "marking_guide": "（湿土质量-干土质量）/干土质量 ×100%。"
+      }
+    ],
+    "suggested_time_min": 25
+  },
+  {
+    "id": "GEO_EXP_04",
+    "source": "坡面侵蚀试验｜不同坡度/植被覆盖下的径流与泥沙产出。",
+    "questions": [
+      {
+        "type": "open",
+        "stem": "变量控制与结论趋势。",
+        "options": [],
+        "answer": null,
+        "marking_guide": "坡度↑、覆盖↓ → 侵蚀增强；保持雨强一致。"
+      }
+    ],
+    "suggested_time_min": 25
+  },
+  {
+    "id": "GEO_EXP_05",
+    "source": "交通可达性（简易 GIS 思路）｜以学校为起点估算到各地点的最短时间。",
+    "questions": [
+      {
+        "type": "open",
+        "stem": "如何构建加权路网？",
+        "options": [],
+        "answer": null,
+        "marking_guide": "道路等级赋权，交叉口惩罚，步行/公交/地铁时速设定。"
+      }
+    ],
+    "suggested_time_min": 25
+  },
+  {
+    "id": "GEO_EXP_06",
+    "source": "等高线判读与剖面｜据等高线图作地形剖面并分析坡度变化。",
+    "questions": [
+      {
+        "type": "open",
+        "stem": "剖面步骤与坡度计算。",
+        "options": [],
+        "answer": null,
+        "marking_guide": "垂直等高线连线取点→投影→连线平滑；坡度=高差/水平距。"
+      }
+    ],
+    "suggested_time_min": 25
+  },
+  {
+    "id": "GEO_EXP_07",
+    "source": "天气与微气候观测｜校园内不同下垫面气象要素对比。",
+    "questions": [
+      {
+        "type": "open",
+        "stem": "观测要素与仪器。",
+        "options": [],
+        "answer": null,
+        "marking_guide": "温/湿/风/辐射；百叶箱/手持仪。"
+      }
+    ],
+    "suggested_time_min": 25
+  }
+]

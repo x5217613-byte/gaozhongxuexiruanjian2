@@ -1,0 +1,32 @@
+[
+  {
+    "chapterId": "math44_ineq",
+    "title": "基本不等式",
+    "content": [
+      {
+        "type": "text",
+        "text": "常见基本不等式及应用。"
+      }
+    ]
+  },
+  {
+    "chapterId": "math44_ind",
+    "title": "数学归纳法",
+    "content": [
+      {
+        "type": "text",
+        "text": "利用数学归纳法证明不等式。"
+      }
+    ]
+  },
+  {
+    "chapterId": "math44_exam",
+    "title": "不等式综合题",
+    "content": [
+      {
+        "type": "text",
+        "text": "高考压轴不等式题。"
+      }
+    ]
+  }
+]

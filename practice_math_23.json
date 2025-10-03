@@ -1,0 +1,142 @@
+[
+  {
+    "id": "PHY_EXP_01",
+    "source": "自由落体与g的测定｜光电门/打点计时器测定重力加速度。",
+    "questions": [
+      {
+        "type": "open",
+        "stem": "写出实验原理与g的计算公式。",
+        "options": [],
+        "answer": null,
+        "marking_guide": "位移-时间平方直线拟合：s=1/2 g t^2，斜率k=1/2 g → g=2k。"
+      },
+      {
+        "type": "open",
+        "stem": "误差来源与改进。",
+        "options": [],
+        "answer": null,
+        "marking_guide": "计时延迟、空气阻力、初速度不为0；采用光电门、减小高度、重复多次取平均。"
+      }
+    ],
+    "suggested_time_min": 25
+  },
+  {
+    "id": "PHY_EXP_02",
+    "source": "斜面摩擦因数测量｜可调斜面，临界角法或拉力计法。",
+    "questions": [
+      {
+        "type": "open",
+        "stem": "临界角法给出计算。",
+        "options": [],
+        "answer": null,
+        "marking_guide": "临界静摩擦：tanθ=μ_s → μ_s=tanθ。"
+      },
+      {
+        "type": "open",
+        "stem": "动摩擦如何测？",
+        "options": [],
+        "answer": null,
+        "marking_guide": "匀速下拉力等于动摩擦力，μ_k=F_k/N。"
+      }
+    ],
+    "suggested_time_min": 25
+  },
+  {
+    "id": "PHY_EXP_03",
+    "source": "牛顿第二定律（滑车/气垫导轨）｜测a与合外力/质量的关系。",
+    "questions": [
+      {
+        "type": "open",
+        "stem": "如何线性化处理数据？",
+        "options": [],
+        "answer": null,
+        "marking_guide": "固定总质量，改变拉力，作a-F图线性拟合；或固定力改质量作a-1/m。"
+      },
+      {
+        "type": "open",
+        "stem": "系统性误差？",
+        "options": [],
+        "answer": null,
+        "marking_guide": "滑轮摩擦、风阻、绳质量；用气垫导轨或轻质绳滑轮。"
+      }
+    ],
+    "suggested_time_min": 25
+  },
+  {
+    "id": "PHY_EXP_04",
+    "source": "动量守恒（气垫导轨/低摩擦小车）｜碰撞前后速度测量验证守恒。",
+    "questions": [
+      {
+        "type": "open",
+        "stem": "给出验证步骤与能量讨论。",
+        "options": [],
+        "answer": null,
+        "marking_guide": "测m1v1+m2v2与m1v1'+m2v2'对比；非弹碰能量不守恒但动量守恒。"
+      }
+    ],
+    "suggested_time_min": 25
+  },
+  {
+    "id": "PHY_EXP_05",
+    "source": "单摆测g与能量转换｜小角度近似；周期测量与高度-速度关系。",
+    "questions": [
+      {
+        "type": "open",
+        "stem": "周期法测g公式？",
+        "options": [],
+        "answer": null,
+        "marking_guide": "T=2π√(L/g) → g=4π²L/T²，作T²-L直线拟合。"
+      },
+      {
+        "type": "open",
+        "stem": "非小角带来什么影响？",
+        "options": [],
+        "answer": null,
+        "marking_guide": "周期变长，需小角度或作修正。"
+      }
+    ],
+    "suggested_time_min": 25
+  },
+  {
+    "id": "PHY_EXP_06",
+    "source": "欧姆定律与I–V特性曲线｜电源/电阻/电压表/电流表绘制I-V图。",
+    "questions": [
+      {
+        "type": "open",
+        "stem": "选择电表量程与内阻影响。",
+        "options": [],
+        "answer": null,
+        "marking_guide": "电压表内阻大、电流表内阻小；量程适中避免满偏。"
+      },
+      {
+        "type": "open",
+        "stem": "如何处理非线性元件？",
+        "options": [],
+        "answer": null,
+        "marking_guide": "绘制完整I–V曲线，讨论导通区与饱和/温升效应。"
+      }
+    ],
+    "suggested_time_min": 25
+  },
+  {
+    "id": "PHY_EXP_07",
+    "source": "RC 充放电与时间常数｜测电容充放电曲线，τ=RC。",
+    "questions": [
+      {
+        "type": "open",
+        "stem": "线性化方法？",
+        "options": [],
+        "answer": null,
+        "marking_guide": "对U(t)作 ln 变换：lnU= -t/RC + 常数，用斜率求τ。"
+      },
+      {
+        "type": "open",
+        "stem": "如何验证理论？",
+        "options": [],
+        "answer": null,
+        "marking_guide": "改变R或C验证τ≈RC的比例关系。"
+      }
+    ],
+    "suggested_time_min": 25
+  }
+]

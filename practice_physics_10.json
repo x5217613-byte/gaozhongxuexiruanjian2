@@ -1,0 +1,32 @@
+[
+  {
+    "chapterId": "phy1_motion",
+    "title": "运动和力",
+    "content": [
+      {
+        "type": "text",
+        "text": "描述质点运动，直线运动与速度。"
+      }
+    ]
+  },
+  {
+    "chapterId": "phy1_newton",
+    "title": "牛顿运动定律",
+    "content": [
+      {
+        "type": "text",
+        "text": "牛顿三大定律，惯性与力的关系。"
+      }
+    ]
+  },
+  {
+    "chapterId": "phy1_work",
+    "title": "功和能",
+    "content": [
+      {
+        "type": "text",
+        "text": "功、功率，动能定理，机械能守恒。"
+      }
+    ]
+  }
+]
