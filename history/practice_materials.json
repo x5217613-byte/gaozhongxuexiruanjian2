@@ -1,0 +1,26 @@
+[
+  {
+    "type": "short_answer",
+    "stem": "材料题：比较中西早期议会制度的异同。",
+    "options": [],
+    "marking_guide": {
+      "rubric": "从产生背景、权力来源、代表性、职能等维度对比。"
+    }
+  },
+  {
+    "type": "short_answer",
+    "stem": "判断材料涉及的史观并说明理由。",
+    "options": [],
+    "marking_guide": {
+      "rubric": "经济史观/政治史观/文化史观等角度阐述。"
+    }
+  },
+  {
+    "type": "short_answer",
+    "stem": "归纳材料所示中国近代民族工业发展的特点。",
+    "options": [],
+    "marking_guide": {
+      "rubric": "产生时间、地区、行业、资本来源、影响等。"
+    }
+  }
+]

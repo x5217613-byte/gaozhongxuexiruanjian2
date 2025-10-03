@@ -1,0 +1,36 @@
+{
+  "week_label": "Week-1 Chinese",
+  "days": [
+    {
+      "day": 1,
+      "materials": 1,
+      "essay_outline": 1
+    },
+    {
+      "day": 2,
+      "materials": 1
+    },
+    {
+      "day": 3,
+      "materials": 1,
+      "essay_outline": 1
+    },
+    {
+      "day": 4,
+      "materials": 1
+    },
+    {
+      "day": 5,
+      "materials": 1,
+      "essay_outline": 1
+    },
+    {
+      "day": 6,
+      "materials": 1
+    },
+    {
+      "day": 7,
+      "full_essay": 900
+    }
+  ]
+}

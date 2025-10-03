@@ -1,0 +1,36 @@
+[
+  {
+    "type": "single_choice",
+    "stem": "地转偏向力在北半球使运动物体偏向？",
+    "options": [
+      "左",
+      "右",
+      "不偏",
+      "南"
+    ],
+    "marking_guide": {
+      "answer": "B"
+    }
+  },
+  {
+    "type": "short_answer",
+    "stem": "简述季风形成的原因。",
+    "options": [],
+    "marking_guide": {
+      "rubric": "海陆热力性质差异导致气压带与风带季节性移动。"
+    }
+  },
+  {
+    "type": "single_choice",
+    "stem": "下列哪项影响河流年径流量？",
+    "options": [
+      "太阳黑子",
+      "地轴进动",
+      "降水与蒸发",
+      "板块运动"
+    ],
+    "marking_guide": {
+      "answer": "C"
+    }
+  }
+]

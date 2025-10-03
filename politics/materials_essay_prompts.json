@@ -1,0 +1,17 @@
+{
+  "prompts": [
+    {
+      "title": "材料题：国家治理现代化",
+      "outline": [
+        "制度建设",
+        "法治与德治",
+        "社会协同"
+      ],
+      "rubric": {
+        "argument": 40,
+        "policy": 30,
+        "expression": 30
+      }
+    }
+  ]
+}

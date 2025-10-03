@@ -1,0 +1,36 @@
+[
+  {
+    "type": "single_choice",
+    "stem": "Reading: The author implies that...",
+    "options": [
+      "it's easy",
+      "he disagrees",
+      "evidence is limited",
+      "no idea"
+    ],
+    "marking_guide": {
+      "answer": "C"
+    }
+  },
+  {
+    "type": "single_choice",
+    "stem": "Cloze: He ___ to the station yesterday.",
+    "options": [
+      "go",
+      "goes",
+      "went",
+      "gone"
+    ],
+    "marking_guide": {
+      "answer": "C"
+    }
+  },
+  {
+    "type": "short_answer",
+    "stem": "Grammar: 改错 - He do not likes apples.",
+    "options": [],
+    "marking_guide": {
+      "rubric": "应为：He does not like apples."
+    }
+  }
+]

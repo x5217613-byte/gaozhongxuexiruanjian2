@@ -1,0 +1,36 @@
+[
+  {
+    "type": "single_choice",
+    "stem": "细胞的基本单位是？",
+    "options": [
+      "组织",
+      "器官",
+      "细胞",
+      "系统"
+    ],
+    "marking_guide": {
+      "answer": "C"
+    }
+  },
+  {
+    "type": "short_answer",
+    "stem": "描述渗透作用实验现象与机理。",
+    "options": [],
+    "marking_guide": {
+      "rubric": "半透膜、浓度差、净水分子移动等。"
+    }
+  },
+  {
+    "type": "single_choice",
+    "stem": "核糖体的功能是？",
+    "options": [
+      "能量供给",
+      "蛋白质合成",
+      "遗传信息存储",
+      "细胞分裂"
+    ],
+    "marking_guide": {
+      "answer": "B"
+    }
+  }
+]

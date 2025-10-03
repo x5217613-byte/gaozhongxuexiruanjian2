@@ -1,0 +1,31 @@
+{
+  "prompts": [
+    {
+      "title": "Argument: Online Learning",
+      "outline": [
+        "Intro: background & stance",
+        "Body: 2-3 arguments",
+        "Counterargument & rebuttal",
+        "Conclusion"
+      ],
+      "rubric": {
+        "content": 40,
+        "organization": 30,
+        "language": 30
+      }
+    },
+    {
+      "title": "Letter: Invite a Guest Speaker",
+      "outline": [
+        "Purpose",
+        "Time & Location",
+        "Request & Polite Close"
+      ],
+      "rubric": {
+        "task": 30,
+        "coherence": 40,
+        "lexico_grammar": 30
+      }
+    }
+  ]
+}

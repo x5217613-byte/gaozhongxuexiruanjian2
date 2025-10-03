@@ -1,0 +1,39 @@
+{
+  "week_label": "Week-1 Math",
+  "days": [
+    {
+      "day": 1,
+      "sync": "函数基础",
+      "drill": 10
+    },
+    {
+      "day": 2,
+      "sync": "集合命题",
+      "drill": 10
+    },
+    {
+      "day": 3,
+      "sync": "数列求和",
+      "drill": 10
+    },
+    {
+      "day": 4,
+      "sync": "三角函数",
+      "drill": 10
+    },
+    {
+      "day": 5,
+      "sync": "解析几何直线",
+      "drill": 10
+    },
+    {
+      "day": 6,
+      "review": "错题本·近5天",
+      "mock": 6
+    },
+    {
+      "day": 7,
+      "mixed_set": 20
+    }
+  ]
+}

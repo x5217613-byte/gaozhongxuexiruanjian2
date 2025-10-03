@@ -1,0 +1,36 @@
+[
+  {
+    "type": "single_choice",
+    "stem": "函数 y=2x+1 的图像与 y=x 的交点横坐标为？",
+    "options": [
+      "-1",
+      "0",
+      "1",
+      "2"
+    ],
+    "marking_guide": {
+      "answer": "C"
+    }
+  },
+  {
+    "type": "short_answer",
+    "stem": "已知数列 an=2n-1，求 S_n。",
+    "options": [],
+    "marking_guide": {
+      "rubric": "等差数列求和：S_n = n(a1+an)/2 = n(1+(2n-1))/2 = n^2"
+    }
+  },
+  {
+    "type": "single_choice",
+    "stem": "下列关于集合的说法正确的是？",
+    "options": [
+      "空集是任意集合的子集",
+      "全集等于空集",
+      "A∩A=空集",
+      "真子集可以等于集合本身"
+    ],
+    "marking_guide": {
+      "answer": "A"
+    }
+  }
+]

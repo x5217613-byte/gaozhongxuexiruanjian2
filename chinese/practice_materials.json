@@ -1,0 +1,26 @@
+[
+  {
+    "type": "short_answer",
+    "stem": "材料题：概括材料中心论点（80字内）。",
+    "options": [],
+    "marking_guide": {
+      "rubric": "围绕材料核心观点，概括表达，突出因果与影响。"
+    }
+  },
+  {
+    "type": "short_answer",
+    "stem": "文言文：翻译加点词。",
+    "options": [],
+    "marking_guide": {
+      "rubric": "结合上下文与语法功能。"
+    }
+  },
+  {
+    "type": "short_answer",
+    "stem": "现代文阅读：分析论证方法及作用。",
+    "options": [],
+    "marking_guide": {
+      "rubric": "常见方法：举例、对比、引用、类比、归纳等。"
+    }
+  }
+]

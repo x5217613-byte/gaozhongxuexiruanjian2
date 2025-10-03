@@ -1,0 +1,26 @@
+[
+  {
+    "type": "short_answer",
+    "stem": "材料题：从“国家治理现代化”角度提出对策。",
+    "options": [],
+    "marking_guide": {
+      "rubric": "依法治国、权责清晰、社会协同、数字治理、民主监督等。"
+    }
+  },
+  {
+    "type": "short_answer",
+    "stem": "辨析：市场调节与宏观调控的关系。",
+    "options": [],
+    "marking_guide": {
+      "rubric": "各自作用与边界、互补关系。"
+    }
+  },
+  {
+    "type": "short_answer",
+    "stem": "材料题：公民权利与义务如何统一？",
+    "options": [],
+    "marking_guide": {
+      "rubric": "权利与义务相统一原则、实现路径与案例。"
+    }
+  }
+]

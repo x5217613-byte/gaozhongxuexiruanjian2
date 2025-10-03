@@ -1,0 +1,49 @@
+{
+  "week_label": "Week-1 English",
+  "days": [
+    {
+      "day": 1,
+      "reading": 1,
+      "cloze": 0,
+      "grammar": 1,
+      "writing": "outline"
+    },
+    {
+      "day": 2,
+      "reading": 1,
+      "cloze": 1,
+      "grammar": 0,
+      "writing": "short"
+    },
+    {
+      "day": 3,
+      "reading": 1,
+      "cloze": 0,
+      "grammar": 1,
+      "writing": "short"
+    },
+    {
+      "day": 4,
+      "reading": 1,
+      "cloze": 1,
+      "grammar": 0,
+      "writing": "outline"
+    },
+    {
+      "day": 5,
+      "reading": 1,
+      "cloze": 0,
+      "grammar": 1,
+      "writing": "short"
+    },
+    {
+      "day": 6,
+      "mock": "reading+cloze combo",
+      "writing": "semi"
+    },
+    {
+      "day": 7,
+      "full_essay": 900
+    }
+  ]
+}

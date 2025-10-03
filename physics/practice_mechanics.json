@@ -1,0 +1,36 @@
+[
+  {
+    "type": "single_choice",
+    "stem": "质量 m 物体以初速度 v0 竖直上抛，最高点速度为？",
+    "options": [
+      "v0",
+      "0",
+      "mg",
+      "未知"
+    ],
+    "marking_guide": {
+      "answer": "B"
+    }
+  },
+  {
+    "type": "short_answer",
+    "stem": "说明串联电路中电流的特点。",
+    "options": [],
+    "marking_guide": {
+      "rubric": "串联各处电流相等"
+    }
+  },
+  {
+    "type": "single_choice",
+    "stem": "下列关于平面镜成像叙述正确的是？",
+    "options": [
+      "实像同向等大",
+      "虚像左右不颠倒",
+      "虚像与物到镜距离相等",
+      "像在镜面上"
+    ],
+    "marking_guide": {
+      "answer": "C"
+    }
+  }
+]
