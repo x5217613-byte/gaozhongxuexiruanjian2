@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>学习仪表盘</title>
+  <link rel="stylesheet" href="assets/theme.css">
+  <link rel="stylesheet" href="assets/components.css">
+  <link rel="stylesheet" href="assets/layout.css">
+<link rel="stylesheet" href="assets/sidebar_plus.css">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#3a7afe">
+</head>
+<body>
+  <script src="assets/theme.js"></script>
+  <script src="assets/layout.js"></script>
+  <div class="app-container main-with-sidebar">
+    <div class="container stack">
+      <h2>学习仪表盘</h2>
+      <div class="grid cols-3">
+        <div class="card" id="card-plan">
+          <div class="row"><b>📅 今日计划</b><span class="badge" id="plan-badge">—</span></div>
+          <div id="plan-list" class="stack"></div>
+        </div>
+        <div class="card" id="card-progress">
+          <div class="row"><b>📈 学习进度</b></div>
+          <div class="stack" id="progress-list"></div>
+        </div>
+        <div class="card" id="card-wrong">
+          <div class="row"><b>📚 错题统计</b></div>
+          <div class="stack" id="wrong-list"></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="tabs">
+          <div class="tab active" data-t="english">英语</div>
+          <div class="tab" data-t="math">数学</div>
+          <div class="tab" data-t="chinese">语文</div>
+        </div>
+        <div class="tabpanes">
+          <div class="pane active" id="pane-english"><div class="en-reading">Reading practice is <b>essential</b> for fluency and comprehension.</div></div>
+          <div class="pane" id="pane-math"><div class="q-item"><div class="title">今日同步 · 函数基础</div><div>选择 + 填空 + 计算</div></div></div>
+          <div class="pane" id="pane-chinese"><div class="q-item"><div class="title">材料题 · 论点概括</div><div>20 分钟定时训练</div></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="assets/english_read_aloud.js"></script>
+  <script src="assets/english_read_aloud_plus.js"></script>
+  <script>
+    // Simple tabs
+    const tabs = document.querySelectorAll('.tab'); const panes=document.querySelectorAll('.pane');
+    tabs.forEach(t=> t.onclick = ()=>{ tabs.forEach(x=>x.classList.remove('active')); t.classList.add('active'); panes.forEach(p=> p.classList.toggle('active','pane-'+t.dataset.t===p.id)); });
+
+    // Plan (read from /data/plans/ if served statically; fallback to hints)
+    async function readJSON(path){
+      try{ const r = await fetch(path); if (r.ok) return await r.json(); }catch(e){} return null;
+    }
+    (async function(){
+      const today = new Date();
+      const idx = today.getDay()===0 ? 7 : today.getDay(); // 1-7
+      let plan = await readJSON('data/plans/weekly_plan_english.json');
+      if (!plan){ document.getElementById('plan-badge').textContent='无计划'; return; }
+      document.getElementById('plan-badge').textContent = plan.week_label || 'Week Plan';
+      const d = (plan.days||[]).find(x=> x.day===idx) || plan.days?.[0] || {};
+      const list = document.getElementById('plan-list');
+      list.innerHTML = Object.keys(d).filter(k=>k!=='day').map(k=> `<div>· <b>${k}</b>：${d[k]}</div>`).join('');
+
+      // progress (mock from localStorage counters)
+      const progBox = document.getElementById('progress-list');
+      const prog = JSON.parse(localStorage.getItem('study_progress')||'{}');
+      const ent = Object.entries(prog).slice(0,6);
+      progBox.innerHTML = ent.length ? ent.map(([k,v])=> `<div class="row"><span class="tag"><span class="dot"></span>${k}</span><b>${v}</b></div>`).join('') : '<div class="muted">暂无进度数据</div>';
+
+      // wrong stats
+      const rev = JSON.parse(localStorage.getItem('review_items')||'{}');
+      let count=0; Object.values(rev).forEach(arr=> count+= (arr||[]).length);
+      document.getElementById('wrong-list').innerHTML = `<div class="row"><span class="tag"><span class="dot"></span>累计错题</span><b>${count}</b></div>`;
+    })();
+  </script>
+<script src="assets/layout_plus.js"></script>
+<script src="assets/theme_customizer.js"></script>
+<script src="assets/shortcuts.js"></script>
+<script src="assets/charts.js"></script>
+<script src="assets/tiny_pdf_bookmarks.js"></script>
+<script src="assets/wrongbook_pdf_export_bookmarks.js"></script>
+</body>
+</html>

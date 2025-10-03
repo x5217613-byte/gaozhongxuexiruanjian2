@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Question v1.0",
+  "type": "object",
+  "required": [
+    "id",
+    "type",
+    "stem"
+  ],
+  "properties": {
+    "id": {
+      "type": [
+        "string",
+        "number"
+      ]
+    },
+    "subject": {
+      "type": "string"
+    },
+    "module": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "single",
+        "multi",
+        "open"
+      ]
+    },
+    "stem": {
+      "type": "string"
+    },
+    "options": {
+      "type": "array",
+      "items": {
+        "type": [
+          "string",
+          "object"
+        ]
+      }
+    },
+    "answer": {
+      "type": [
+        "number",
+        "array",
+        "string",
+        "null"
+      ]
+    },
+    "explanation": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "difficulty": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 1,
+      "maximum": 5
+    },
+    "points": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "time_suggest": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "source": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

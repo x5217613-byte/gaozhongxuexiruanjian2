@@ -1,0 +1,87 @@
+
+/* Components/Utilities Kit */
+:root{
+  --accent-blue: #3a7afe;
+  --accent-green: #18a999;
+  --accent-purple:#6a5acd;
+  --accent-orange:#ff7a45;
+}
+:root[data-accent="blue"]  { --brand: var(--accent-blue); }
+:root[data-accent="green"] { --brand: var(--accent-green); }
+:root[data-accent="purple"]{ --brand: var(--accent-purple); }
+:root[data-accent="orange"]{ --brand: var(--accent-orange); }
+
+/* High contrast (AA/AAA leaning) */
+:root[data-contrast="high"]{
+  --surface: #fff;
+  --text: #000;
+  --muted: #1d1d1d;
+  --border: #000;
+  --shadow: none;
+}
+
+/* Exam focus: minimal chrome */
+:root[data-mode="exam"] body{
+  background: #fff !important;
+}
+:root[data-mode="exam"] #themeToggle,
+:root[data-mode="exam"] #uiControls,
+:root[data-mode="exam"] #sidebar,
+:root[data-mode="exam"] #topbar{ opacity:.0; pointer-events:none; position:absolute; left:-9999px }
+:root[data-mode="exam"] .q-item, 
+:root[data-mode="exam"] .exercise-item,
+:root[data-mode="exam"] .question{ box-shadow:none; border-radius:0; border:1px solid #ddd }
+
+/* Header/Sidebar */
+#topbar{
+  position: sticky; top:0; z-index: 1000;
+  background:var(--surface); border-bottom:1px solid var(--border);
+  box-shadow: var(--shadow);
+  display:flex; align-items:center; gap:12px; padding:10px 16px;
+}
+#topbar .brand{ font-weight:800; background: var(--accent-grad); -webkit-background-clip:text; background-clip:text; color:transparent; }
+#topbar .spacer{ flex:1 }
+#topbar .crumb{ color:var(--muted); font-size:13px }
+
+#sidebar{
+  position: fixed; left:0; top:52px; bottom:0; width: 220px;
+  background: var(--surface); border-right:1px solid var(--border);
+  padding:12px; overflow:auto; box-shadow: var(--shadow);
+}
+#sidebar .nav-group{ margin-bottom:12px }
+#sidebar .nav-title{ font-size:12px; color:var(--muted); margin:6px 8px }
+#sidebar a{ display:flex; align-items:center; gap:8px; padding:8px 10px; border-radius:10px; color:var(--text); text-decoration:none }
+#sidebar a:hover{ background: rgba(58,122,254,.08) }
+#sidebar a.active{ background: var(--accent-grad); color:#fff }
+
+.main-with-sidebar{ margin-left: 236px }
+
+/* Controls panel */
+#uiControls{
+  position: fixed; right:16px; top:58px; z-index:1000;
+  background: var(--surface); border:1px solid var(--border); border-radius:14px; box-shadow: var(--shadow);
+  padding:10px; display:flex; flex-direction:column; gap:8px; width: 240px;
+}
+#uiControls .row{ display:flex; align-items:center; gap:8px; flex-wrap:wrap }
+#uiControls .row .btn{ flex:1 1 auto; justify-content:center }
+.switch{ position:relative; width:46px; height:26px; background:#d1d5db; border-radius:999px; cursor:pointer; transition:background .2s }
+.switch input{ display:none }
+.switch .knob{ position:absolute; left:3px; top:3px; width:20px; height:20px; background:#fff; border-radius:50%; transition: transform .2s }
+.switch input:checked + .knob{ transform: translateX(20px) }
+.switch.on{ background:var(--brand) }
+
+/* Modal/Toast */
+.modal{ position:fixed; inset:0; display:none; background:rgba(0,0,0,.45); z-index:10000 }
+.modal .panel{ position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); width:min(680px, calc(100% - 40px)); background:var(--surface); border:1px solid var(--border); border-radius:14px; box-shadow: var(--shadow); padding:14px }
+.toast{
+  position: fixed; left:50%; transform: translateX(-50%);
+  bottom: 26px; background: var(--surface); border:1px solid var(--border); border-radius: 999px; padding:8px 14px; box-shadow: var(--shadow);
+  display:none; z-index: 10001;
+}
+
+/* Tabs */
+.tabs{ display:flex; gap:6px; border-bottom:1px solid var(--border); margin-bottom:8px }
+.tabs .tab{ padding:8px 10px; cursor:pointer; border-bottom:2px solid transparent }
+.tabs .tab.active{ border-color: var(--brand); font-weight:700 }
+.tabpanes .pane{ display:none }
+.tabpanes .pane.active{ display:block }

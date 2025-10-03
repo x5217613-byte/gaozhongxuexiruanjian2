@@ -1,0 +1,137 @@
+{
+  "subject": "biology",
+  "weekly_plan": [
+    {
+      "day": "周一",
+      "primary_task": {
+        "topic": "细胞与分子基础",
+        "file": "practice_biology1.json",
+        "question_count": 15
+      },
+      "secondary_task": {
+        "topic": "酶与代谢",
+        "file": "practice_biology2.json",
+        "question_count": 10
+      },
+      "time_suggestion": {
+        "practice_min": 50,
+        "practice_max": 60
+      },
+      "mini_essay": null
+    },
+    {
+      "day": "周二",
+      "primary_task": {
+        "topic": "酶与代谢",
+        "file": "practice_biology2.json",
+        "question_count": 15
+      },
+      "secondary_task": {
+        "topic": "遗传与变异",
+        "file": "practice_biology3.json",
+        "question_count": 10
+      },
+      "time_suggestion": {
+        "practice_min": 50,
+        "practice_max": 60
+      },
+      "mini_essay": null
+    },
+    {
+      "day": "周三",
+      "primary_task": {
+        "topic": "遗传与变异",
+        "file": "practice_biology3.json",
+        "question_count": 15
+      },
+      "secondary_task": {
+        "topic": "进化与生物多样性",
+        "file": "practice_biology4.json",
+        "question_count": 10
+      },
+      "time_suggestion": {
+        "practice_min": 50,
+        "practice_max": 60
+      },
+      "mini_essay": null
+    },
+    {
+      "day": "周四",
+      "primary_task": {
+        "topic": "进化与生物多样性",
+        "file": "practice_biology4.json",
+        "question_count": 15
+      },
+      "secondary_task": {
+        "topic": "生态系统与能量流动",
+        "file": "practice_biology5.json",
+        "question_count": 10
+      },
+      "time_suggestion": {
+        "practice_min": 50,
+        "practice_max": 60
+      },
+      "mini_essay": null
+    },
+    {
+      "day": "周五",
+      "primary_task": {
+        "topic": "生态系统与能量流动",
+        "file": "practice_biology5.json",
+        "question_count": 15
+      },
+      "secondary_task": {
+        "topic": "生命活动调节（神经/体液/免疫）",
+        "file": "practice_biology1.json",
+        "question_count": 10
+      },
+      "time_suggestion": {
+        "practice_min": 50,
+        "practice_max": 60
+      },
+      "mini_essay": null
+    },
+    {
+      "day": "周六",
+      "primary_task": {
+        "topic": "生命活动调节（神经/体液/免疫）",
+        "file": "practice_biology1.json",
+        "question_count": 15
+      },
+      "secondary_task": {
+        "topic": "生物技术基础",
+        "file": "practice_biology2.json",
+        "question_count": 10
+      },
+      "time_suggestion": {
+        "practice_min": 50,
+        "practice_max": 60
+      },
+      "mini_essay": null
+    },
+    {
+      "day": "周日",
+      "primary_task": {
+        "topic": "生物技术基础",
+        "file": "practice_biology2.json",
+        "question_count": 15
+      },
+      "secondary_task": {
+        "topic": "生物与环境",
+        "file": "practice_biology3.json",
+        "question_count": 10
+      },
+      "time_suggestion": {
+        "practice_min": 50,
+        "practice_max": 60
+      },
+      "mini_essay": null,
+      "full_task": {
+        "file": "practice_biology_mock.json",
+        "question_count": 20,
+        "time_min": 50,
+        "time_max": 75
+      }
+    }
+  ]
+}

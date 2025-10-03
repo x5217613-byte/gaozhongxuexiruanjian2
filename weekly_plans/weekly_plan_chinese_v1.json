@@ -1,0 +1,142 @@
+{
+  "subject": "chinese",
+  "weekly_plan": [
+    {
+      "day": "周一",
+      "primary_task": {
+        "file": "practice_chinese_06.json",
+        "index": 21,
+        "id": "CN_MAT_21"
+      },
+      "secondary_task": {
+        "file": "practice_chinese_07.json",
+        "index": 9,
+        "id": "CN_ESSAY_09"
+      },
+      "mini_essay": {
+        "file": "chinese_essay_prompts.json",
+        "index": 9,
+        "id": "CN_ESSAY_09"
+      },
+      "full_task": null
+    },
+    {
+      "day": "周二",
+      "primary_task": {
+        "file": "practice_chinese_06.json",
+        "index": 4,
+        "id": "CN_MAT_04"
+      },
+      "secondary_task": {
+        "file": "practice_chinese_07.json",
+        "index": 48,
+        "id": "CN_ESSAY_48"
+      },
+      "mini_essay": {
+        "file": "chinese_essay_prompts.json",
+        "index": 48,
+        "id": "CN_ESSAY_48"
+      },
+      "full_task": null
+    },
+    {
+      "day": "周三",
+      "primary_task": {
+        "file": "practice_chinese_06.json",
+        "index": 1,
+        "id": "CN_MAT_01"
+      },
+      "secondary_task": {
+        "file": "practice_chinese_07.json",
+        "index": 7,
+        "id": "CN_ESSAY_07"
+      },
+      "mini_essay": {
+        "file": "chinese_essay_prompts.json",
+        "index": 7,
+        "id": "CN_ESSAY_07"
+      },
+      "full_task": null
+    },
+    {
+      "day": "周四",
+      "primary_task": {
+        "file": "practice_chinese_06.json",
+        "index": 24,
+        "id": "CN_MAT_24"
+      },
+      "secondary_task": {
+        "file": "practice_chinese_07.json",
+        "index": 44,
+        "id": "CN_ESSAY_44"
+      },
+      "mini_essay": {
+        "file": "chinese_essay_prompts.json",
+        "index": 44,
+        "id": "CN_ESSAY_44"
+      },
+      "full_task": null
+    },
+    {
+      "day": "周五",
+      "primary_task": {
+        "file": "practice_chinese_06.json",
+        "index": 9,
+        "id": "CN_MAT_09"
+      },
+      "secondary_task": {
+        "file": "practice_chinese_07.json",
+        "index": 35,
+        "id": "CN_ESSAY_35"
+      },
+      "mini_essay": {
+        "file": "chinese_essay_prompts.json",
+        "index": 35,
+        "id": "CN_ESSAY_35"
+      },
+      "full_task": null
+    },
+    {
+      "day": "周六",
+      "primary_task": {
+        "file": "practice_chinese_06.json",
+        "index": 8,
+        "id": "CN_MAT_08"
+      },
+      "secondary_task": {
+        "file": "practice_chinese_07.json",
+        "index": 6,
+        "id": "CN_ESSAY_06"
+      },
+      "mini_essay": {
+        "file": "chinese_essay_prompts.json",
+        "index": 6,
+        "id": "CN_ESSAY_06"
+      },
+      "full_task": null
+    },
+    {
+      "day": "周日",
+      "primary_task": {
+        "file": "practice_chinese_06.json",
+        "index": 25,
+        "id": "CN_MAT_25"
+      },
+      "secondary_task": {
+        "file": "practice_chinese_07.json",
+        "index": 38,
+        "id": "CN_ESSAY_38"
+      },
+      "mini_essay": {
+        "file": "chinese_essay_prompts.json",
+        "index": 38,
+        "id": "CN_ESSAY_38"
+      },
+      "full_task": {
+        "file": "practice_chinese_07.json",
+        "index": 28,
+        "id": "CN_ESSAY_28"
+      }
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "subject": "english",
+  "weekly_plan": [
+    {
+      "day": "周一",
+      "primary_task": {
+        "task_type": "reading",
+        "file": "practice_english_01.json",
+        "question_count": 10
+      },
+      "secondary_task": {
+        "file": "english_essay_prompts.json",
+        "index": 1,
+        "id": "EN_ESSAY_01"
+      },
+      "mini_essay": {
+        "file": "english_essay_prompts.json",
+        "index": 1,
+        "id": "EN_ESSAY_01"
+      },
+      "full_task": null
+    },
+    {
+      "day": "周二",
+      "primary_task": {
+        "task_type": "cloze",
+        "file": "practice_english_02.json",
+        "question_count": 10
+      },
+      "secondary_task": {
+        "file": "english_essay_prompts.json",
+        "index": 2,
+        "id": "EN_ESSAY_02"
+      },
+      "mini_essay": {
+        "file": "english_essay_prompts.json",
+        "index": 2,
+        "id": "EN_ESSAY_02"
+      },
+      "full_task": null
+    },
+    {
+      "day": "周三",
+      "primary_task": {
+        "task_type": "vocabulary",
+        "file": "practice_english_03.json",
+        "question_count": 10
+      },
+      "secondary_task": {
+        "file": "english_essay_prompts.json",
+        "index": 3,
+        "id": "EN_ESSAY_03"
+      },
+      "mini_essay": {
+        "file": "english_essay_prompts.json",
+        "index": 3,
+        "id": "EN_ESSAY_03"
+      },
+      "full_task": null
+    },
+    {
+      "day": "周四",
+      "primary_task": {
+        "task_type": "grammar",
+        "file": "practice_english_04.json",
+        "question_count": 10
+      },
+      "secondary_task": {
+        "file": "english_essay_prompts.json",
+        "index": 4,
+        "id": "EN_ESSAY_04"
+      },
+      "mini_essay": {
+        "file": "english_essay_prompts.json",
+        "index": 4,
+        "id": "EN_ESSAY_04"
+      },
+      "full_task": null
+    },
+    {
+      "day": "周五",
+      "primary_task": {
+        "task_type": "reading",
+        "file": "practice_english_05.json",
+        "question_count": 10
+      },
+      "secondary_task": {
+        "file": "english_essay_prompts.json",
+        "index": 5,
+        "id": "EN_ESSAY_05"
+      },
+      "mini_essay": {
+        "file": "english_essay_prompts.json",
+        "index": 5,
+        "id": "EN_ESSAY_05"
+      },
+      "full_task": null
+    },
+    {
+      "day": "周六",
+      "primary_task": {
+        "task_type": "cloze",
+        "file": "practice_english_01.json",
+        "question_count": 10
+      },
+      "secondary_task": {
+        "file": "english_essay_prompts.json",
+        "index": 6,
+        "id": "EN_ESSAY_06"
+      },
+      "mini_essay": {
+        "file": "english_essay_prompts.json",
+        "index": 6,
+        "id": "EN_ESSAY_06"
+      },
+      "full_task": null
+    },
+    {
+      "day": "周日",
+      "primary_task": {
+        "task_type": "vocabulary",
+        "file": "practice_english_02.json",
+        "question_count": 10
+      },
+      "secondary_task": {
+        "file": "english_essay_prompts.json",
+        "index": 7,
+        "id": "EN_ESSAY_07"
+      },
+      "mini_essay": {
+        "file": "english_essay_prompts.json",
+        "index": 7,
+        "id": "EN_ESSAY_07"
+      },
+      "full_task": {
+        "file": "english_essay_prompts.json",
+        "index": 20,
+        "id": "EN_ESSAY_20"
+      }
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "subject": "politics",
+  "weekly_plan": [
+    {
+      "day": "周一",
+      "material_set": {
+        "file": "materials_politics_cases.json",
+        "index": 21,
+        "id": "PO_MAT_21"
+      },
+      "mini_essay": {
+        "file": "politics_essay_prompts.json",
+        "index": 9,
+        "id": "PO_ESSAY_09"
+      },
+      "time_suggestion": {
+        "materials_min": 20,
+        "materials_max": 25,
+        "mini_essay_min": 30,
+        "mini_essay_max": 40
+      }
+    },
+    {
+      "day": "周二",
+      "material_set": {
+        "file": "materials_politics_cases.json",
+        "index": 4,
+        "id": "PO_MAT_04"
+      },
+      "mini_essay": {
+        "file": "politics_essay_prompts.json",
+        "index": 48,
+        "id": "PO_ESSAY_48"
+      },
+      "time_suggestion": {
+        "materials_min": 20,
+        "materials_max": 25,
+        "mini_essay_min": 30,
+        "mini_essay_max": 40
+      }
+    },
+    {
+      "day": "周三",
+      "material_set": {
+        "file": "materials_politics_cases.json",
+        "index": 1,
+        "id": "PO_MAT_01"
+      },
+      "mini_essay": {
+        "file": "politics_essay_prompts.json",
+        "index": 7,
+        "id": "PO_ESSAY_07"
+      },
+      "time_suggestion": {
+        "materials_min": 20,
+        "materials_max": 25,
+        "mini_essay_min": 30,
+        "mini_essay_max": 40
+      }
+    },
+    {
+      "day": "周四",
+      "material_set": {
+        "file": "materials_politics_cases.json",
+        "index": 24,
+        "id": "PO_MAT_24"
+      },
+      "mini_essay": {
+        "file": "politics_essay_prompts.json",
+        "index": 44,
+        "id": "PO_ESSAY_44"
+      },
+      "time_suggestion": {
+        "materials_min": 20,
+        "materials_max": 25,
+        "mini_essay_min": 30,
+        "mini_essay_max": 40
+      }
+    },
+    {
+      "day": "周五",
+      "material_set": {
+        "file": "materials_politics_cases.json",
+        "index": 9,
+        "id": "PO_MAT_09"
+      },
+      "mini_essay": {
+        "file": "politics_essay_prompts.json",
+        "index": 35,
+        "id": "PO_ESSAY_35"
+      },
+      "time_suggestion": {
+        "materials_min": 20,
+        "materials_max": 25,
+        "mini_essay_min": 30,
+        "mini_essay_max": 40
+      }
+    },
+    {
+      "day": "周六",
+      "material_set": {
+        "file": "materials_politics_cases.json",
+        "index": 8,
+        "id": "PO_MAT_08"
+      },
+      "mini_essay": {
+        "file": "politics_essay_prompts.json",
+        "index": 6,
+        "id": "PO_ESSAY_06"
+      },
+      "time_suggestion": {
+        "materials_min": 20,
+        "materials_max": 25,
+        "mini_essay_min": 30,
+        "mini_essay_max": 40
+      }
+    },
+    {
+      "day": "周日",
+      "material_set": {
+        "file": "materials_politics_cases.json",
+        "index": 25,
+        "id": "PO_MAT_25"
+      },
+      "mini_essay": {
+        "file": "politics_essay_prompts.json",
+        "index": 38,
+        "id": "PO_ESSAY_38"
+      },
+      "time_suggestion": {
+        "materials_min": 20,
+        "materials_max": 25,
+        "mini_essay_min": 30,
+        "mini_essay_max": 40
+      },
+      "full_essay": {
+        "file": "politics_essay_prompts.json",
+        "index": 28,
+        "id": "PO_ESSAY_28"
+      },
+      "full_essay_requirement": {
+        "words_min": 800,
+        "words_max": 1000
+      }
+    }
+  ]
+}

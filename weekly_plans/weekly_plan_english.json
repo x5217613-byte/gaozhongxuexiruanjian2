@@ -1,0 +1,182 @@
+{
+  "subject": "english",
+  "weekly_plan": [
+    {
+      "day": "周一",
+      "practice_a": {
+        "task_type": "reading",
+        "file": "practice_english1.json",
+        "question_count": 10
+      },
+      "practice_b": {
+        "task_type": "cloze",
+        "file": "practice_english2.json",
+        "question_count": 10
+      },
+      "mini_essay": {
+        "file": "english_essay_prompts.json",
+        "index": 1,
+        "id": "EN_ESSAY_01"
+      },
+      "time_suggestion": {
+        "practice_min": 40,
+        "practice_max": 50,
+        "mini_essay_min": 30,
+        "mini_essay_max": 40
+      }
+    },
+    {
+      "day": "周二",
+      "practice_a": {
+        "task_type": "cloze",
+        "file": "practice_english2.json",
+        "question_count": 10
+      },
+      "practice_b": {
+        "task_type": "vocabulary",
+        "file": "practice_english3.json",
+        "question_count": 10
+      },
+      "mini_essay": {
+        "file": "english_essay_prompts.json",
+        "index": 2,
+        "id": "EN_ESSAY_02"
+      },
+      "time_suggestion": {
+        "practice_min": 40,
+        "practice_max": 50,
+        "mini_essay_min": 30,
+        "mini_essay_max": 40
+      }
+    },
+    {
+      "day": "周三",
+      "practice_a": {
+        "task_type": "vocabulary",
+        "file": "practice_english3.json",
+        "question_count": 10
+      },
+      "practice_b": {
+        "task_type": "grammar",
+        "file": "practice_english4.json",
+        "question_count": 10
+      },
+      "mini_essay": {
+        "file": "english_essay_prompts.json",
+        "index": 3,
+        "id": "EN_ESSAY_03"
+      },
+      "time_suggestion": {
+        "practice_min": 40,
+        "practice_max": 50,
+        "mini_essay_min": 30,
+        "mini_essay_max": 40
+      }
+    },
+    {
+      "day": "周四",
+      "practice_a": {
+        "task_type": "grammar",
+        "file": "practice_english4.json",
+        "question_count": 10
+      },
+      "practice_b": {
+        "task_type": "reading",
+        "file": "practice_english5.json",
+        "question_count": 10
+      },
+      "mini_essay": {
+        "file": "english_essay_prompts.json",
+        "index": 4,
+        "id": "EN_ESSAY_04"
+      },
+      "time_suggestion": {
+        "practice_min": 40,
+        "practice_max": 50,
+        "mini_essay_min": 30,
+        "mini_essay_max": 40
+      }
+    },
+    {
+      "day": "周五",
+      "practice_a": {
+        "task_type": "reading",
+        "file": "practice_english5.json",
+        "question_count": 10
+      },
+      "practice_b": {
+        "task_type": "cloze",
+        "file": "practice_english1.json",
+        "question_count": 10
+      },
+      "mini_essay": {
+        "file": "english_essay_prompts.json",
+        "index": 5,
+        "id": "EN_ESSAY_05"
+      },
+      "time_suggestion": {
+        "practice_min": 40,
+        "practice_max": 50,
+        "mini_essay_min": 30,
+        "mini_essay_max": 40
+      }
+    },
+    {
+      "day": "周六",
+      "practice_a": {
+        "task_type": "cloze",
+        "file": "practice_english1.json",
+        "question_count": 10
+      },
+      "practice_b": {
+        "task_type": "vocabulary",
+        "file": "practice_english2.json",
+        "question_count": 10
+      },
+      "mini_essay": {
+        "file": "english_essay_prompts.json",
+        "index": 6,
+        "id": "EN_ESSAY_06"
+      },
+      "time_suggestion": {
+        "practice_min": 40,
+        "practice_max": 50,
+        "mini_essay_min": 30,
+        "mini_essay_max": 40
+      }
+    },
+    {
+      "day": "周日",
+      "practice_a": {
+        "task_type": "vocabulary",
+        "file": "practice_english2.json",
+        "question_count": 10
+      },
+      "practice_b": {
+        "task_type": "grammar",
+        "file": "practice_english3.json",
+        "question_count": 10
+      },
+      "mini_essay": {
+        "file": "english_essay_prompts.json",
+        "index": 7,
+        "id": "EN_ESSAY_07"
+      },
+      "time_suggestion": {
+        "practice_min": 40,
+        "practice_max": 50,
+        "mini_essay_min": 30,
+        "mini_essay_max": 40
+      },
+      "full_essay": {
+        "file": "english_essay_prompts.json",
+        "index": 20,
+        "id": "EN_ESSAY_20"
+      },
+      "full_essay_requirement": {
+        "words_min": 800,
+        "words_max": 1000
+      }
+    }
+  ]
+}

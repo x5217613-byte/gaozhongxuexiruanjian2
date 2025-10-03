@@ -1,0 +1,132 @@
+{
+  "subject": "math",
+  "weekly_plan": [
+    {
+      "day": "周一",
+      "practice_a": {
+        "topic": "集合与逻辑",
+        "file": "practice_math1.json",
+        "question_count": 15
+      },
+      "practice_b": {
+        "topic": "函数基础",
+        "file": "practice_math2.json",
+        "question_count": 15
+      },
+      "time_suggestion": {
+        "practice_min": 60,
+        "practice_max": 75
+      }
+    },
+    {
+      "day": "周二",
+      "practice_a": {
+        "topic": "函数基础",
+        "file": "practice_math2.json",
+        "question_count": 15
+      },
+      "practice_b": {
+        "topic": "函数性质",
+        "file": "practice_math3.json",
+        "question_count": 15
+      },
+      "time_suggestion": {
+        "practice_min": 60,
+        "practice_max": 75
+      }
+    },
+    {
+      "day": "周三",
+      "practice_a": {
+        "topic": "函数性质",
+        "file": "practice_math3.json",
+        "question_count": 15
+      },
+      "practice_b": {
+        "topic": "空间几何",
+        "file": "practice_math4.json",
+        "question_count": 15
+      },
+      "time_suggestion": {
+        "practice_min": 60,
+        "practice_max": 75
+      }
+    },
+    {
+      "day": "周四",
+      "practice_a": {
+        "topic": "空间几何",
+        "file": "practice_math4.json",
+        "question_count": 15
+      },
+      "practice_b": {
+        "topic": "向量初步",
+        "file": "practice_math5.json",
+        "question_count": 15
+      },
+      "time_suggestion": {
+        "practice_min": 60,
+        "practice_max": 75
+      }
+    },
+    {
+      "day": "周五",
+      "practice_a": {
+        "topic": "向量初步",
+        "file": "practice_math5.json",
+        "question_count": 15
+      },
+      "practice_b": {
+        "topic": "概率统计",
+        "file": "practice_math1.json",
+        "question_count": 15
+      },
+      "time_suggestion": {
+        "practice_min": 60,
+        "practice_max": 75
+      }
+    },
+    {
+      "day": "周六",
+      "practice_a": {
+        "topic": "概率统计",
+        "file": "practice_math1.json",
+        "question_count": 15
+      },
+      "practice_b": {
+        "topic": "三角函数",
+        "file": "practice_math2.json",
+        "question_count": 15
+      },
+      "time_suggestion": {
+        "practice_min": 60,
+        "practice_max": 75
+      }
+    },
+    {
+      "day": "周日",
+      "practice_a": {
+        "topic": "三角函数",
+        "file": "practice_math2.json",
+        "question_count": 15
+      },
+      "practice_b": {
+        "topic": "数列与不等式",
+        "file": "practice_math3.json",
+        "question_count": 15
+      },
+      "time_suggestion": {
+        "practice_min": 60,
+        "practice_max": 75
+      },
+      "full_set": {
+        "file": "practice_math5.json",
+        "question_count": 20
+      },
+      "full_set_requirement": {
+        "time_min": 60,
+        "time_max": 90
+      }
+    }
+  ]
+}

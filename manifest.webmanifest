@@ -1,0 +1,1 @@
+{"name": "HS Study Suite", "short_name": "HS Study", "start_url": "./home.html", "display": "standalone", "background_color": "#f7f8fb", "theme_color": "#3a7afe", "icons": [{"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png"}, {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png"}]}

@@ -1,0 +1,122 @@
+{
+  "subject": "chemistry_mixed",
+  "weekly_plan": [
+    {
+      "day": "周一",
+      "primary_task": {
+        "file": "practice_math_22.json",
+        "index": 1
+      },
+      "secondary_task": {
+        "file": "practice_chemistry1.json",
+        "question_count": 10
+      },
+      "time_suggestion": {
+        "practice_min": 45,
+        "practice_max": 60
+      },
+      "mini_essay": null
+    },
+    {
+      "day": "周二",
+      "primary_task": {
+        "file": "practice_math_22.json",
+        "index": 2
+      },
+      "secondary_task": {
+        "file": "practice_chemistry2.json",
+        "question_count": 10
+      },
+      "time_suggestion": {
+        "practice_min": 45,
+        "practice_max": 60
+      },
+      "mini_essay": null
+    },
+    {
+      "day": "周三",
+      "primary_task": {
+        "file": "practice_math_22.json",
+        "index": 3
+      },
+      "secondary_task": {
+        "file": "practice_chemistry3.json",
+        "question_count": 10
+      },
+      "time_suggestion": {
+        "practice_min": 45,
+        "practice_max": 60
+      },
+      "mini_essay": null
+    },
+    {
+      "day": "周四",
+      "primary_task": {
+        "file": "practice_math_22.json",
+        "index": 4
+      },
+      "secondary_task": {
+        "file": "practice_chemistry4.json",
+        "question_count": 10
+      },
+      "time_suggestion": {
+        "practice_min": 45,
+        "practice_max": 60
+      },
+      "mini_essay": null
+    },
+    {
+      "day": "周五",
+      "primary_task": {
+        "file": "practice_math_22.json",
+        "index": 5
+      },
+      "secondary_task": {
+        "file": "practice_chemistry5.json",
+        "question_count": 10
+      },
+      "time_suggestion": {
+        "practice_min": 45,
+        "practice_max": 60
+      },
+      "mini_essay": null
+    },
+    {
+      "day": "周六",
+      "primary_task": {
+        "file": "practice_math_22.json",
+        "index": 6
+      },
+      "secondary_task": {
+        "file": "practice_chemistry1.json",
+        "question_count": 10
+      },
+      "time_suggestion": {
+        "practice_min": 45,
+        "practice_max": 60
+      },
+      "mini_essay": null
+    },
+    {
+      "day": "周日",
+      "primary_task": {
+        "file": "practice_math_22.json",
+        "index": 7
+      },
+      "secondary_task": {
+        "file": "practice_chemistry2.json",
+        "question_count": 10
+      },
+      "time_suggestion": {
+        "practice_min": 45,
+        "practice_max": 60
+      },
+      "mini_essay": null,
+      "full_task": {
+        "file": "practice_math_22.json",
+        "index": 7,
+        "requirement": "完成实验报告（变量/曲线/误差与改进，800–1000字）+ 额外客观题 10 题"
+      }
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "subject": "geography",
+  "weekly_plan": [
+    {
+      "day": "周一",
+      "primary_task": {
+        "topic": "地球与地图",
+        "file": "practice_physics_01.json",
+        "question_count": 12
+      },
+      "secondary_task": {
+        "topic": "大气与天气气候",
+        "file": "practice_physics_02.json",
+        "question_count": 10
+      },
+      "time_suggestion": {
+        "practice_min": 45,
+        "practice_max": 55
+      },
+      "mini_essay": null
+    },
+    {
+      "day": "周二",
+      "primary_task": {
+        "topic": "大气与天气气候",
+        "file": "practice_physics_02.json",
+        "question_count": 12
+      },
+      "secondary_task": {
+        "topic": "水循环与水文",
+        "file": "practice_physics_03.json",
+        "question_count": 10
+      },
+      "time_suggestion": {
+        "practice_min": 45,
+        "practice_max": 55
+      },
+      "mini_essay": null
+    },
+    {
+      "day": "周三",
+      "primary_task": {
+        "topic": "水循环与水文",
+        "file": "practice_physics_03.json",
+        "question_count": 12
+      },
+      "secondary_task": {
+        "topic": "地表形态与地质作用",
+        "file": "practice_geography4.json",
+        "question_count": 10
+      },
+      "time_suggestion": {
+        "practice_min": 45,
+        "practice_max": 55
+      },
+      "mini_essay": null
+    },
+    {
+      "day": "周四",
+      "primary_task": {
+        "topic": "地表形态与地质作用",
+        "file": "practice_geography4.json",
+        "question_count": 12
+      },
+      "secondary_task": {
+        "topic": "人口与城市",
+        "file": "practice_geography5.json",
+        "question_count": 10
+      },
+      "time_suggestion": {
+        "practice_min": 45,
+        "practice_max": 55
+      },
+      "mini_essay": null
+    },
+    {
+      "day": "周五",
+      "primary_task": {
+        "topic": "人口与城市",
+        "file": "practice_geography5.json",
+        "question_count": 12
+      },
+      "secondary_task": {
+        "topic": "交通与区域联系",
+        "file": "practice_physics_01.json",
+        "question_count": 10
+      },
+      "time_suggestion": {
+        "practice_min": 45,
+        "practice_max": 55
+      },
+      "mini_essay": null
+    },
+    {
+      "day": "周六",
+      "primary_task": {
+        "topic": "交通与区域联系",
+        "file": "practice_physics_01.json",
+        "question_count": 12
+      },
+      "secondary_task": {
+        "topic": "资源与环境",
+        "file": "practice_physics_02.json",
+        "question_count": 10
+      },
+      "time_suggestion": {
+        "practice_min": 45,
+        "practice_max": 55
+      },
+      "mini_essay": null
+    },
+    {
+      "day": "周日",
+      "primary_task": {
+        "topic": "资源与环境",
+        "file": "practice_physics_02.json",
+        "question_count": 12
+      },
+      "secondary_task": {
+        "topic": "中国与世界地理",
+        "file": "practice_physics_03.json",
+        "question_count": 10
+      },
+      "time_suggestion": {
+        "practice_min": 45,
+        "practice_max": 55
+      },
+      "mini_essay": null,
+      "full_task": {
+        "file": "practice_geography_mock.json",
+        "question_count": 18,
+        "time_min": 45,
+        "time_max": 70
+      }
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "subject": "chemistry",
+  "weekly_plan": [
+    {
+      "day": "周一",
+      "primary_task": {
+        "topic": "原子结构与元素周期律",
+        "file": "practice_chemistry1.json",
+        "question_count": 16
+      },
+      "secondary_task": {
+        "topic": "化学键与晶体结构",
+        "file": "practice_chemistry2.json",
+        "question_count": 12
+      },
+      "time_suggestion": {
+        "practice_min": 55,
+        "practice_max": 70
+      },
+      "mini_essay": null
+    },
+    {
+      "day": "周二",
+      "primary_task": {
+        "topic": "化学键与晶体结构",
+        "file": "practice_chemistry2.json",
+        "question_count": 16
+      },
+      "secondary_task": {
+        "topic": "氧化还原反应",
+        "file": "practice_chemistry3.json",
+        "question_count": 12
+      },
+      "time_suggestion": {
+        "practice_min": 55,
+        "practice_max": 70
+      },
+      "mini_essay": null
+    },
+    {
+      "day": "周三",
+      "primary_task": {
+        "topic": "氧化还原反应",
+        "file": "practice_chemistry3.json",
+        "question_count": 16
+      },
+      "secondary_task": {
+        "topic": "化学反应速率与平衡",
+        "file": "practice_chemistry4.json",
+        "question_count": 12
+      },
+      "time_suggestion": {
+        "practice_min": 55,
+        "practice_max": 70
+      },
+      "mini_essay": null
+    },
+    {
+      "day": "周四",
+      "primary_task": {
+        "topic": "化学反应速率与平衡",
+        "file": "practice_chemistry4.json",
+        "question_count": 16
+      },
+      "secondary_task": {
+        "topic": "物质的量与溶液浓度",
+        "file": "practice_chemistry5.json",
+        "question_count": 12
+      },
+      "time_suggestion": {
+        "practice_min": 55,
+        "practice_max": 70
+      },
+      "mini_essay": null
+    },
+    {
+      "day": "周五",
+      "primary_task": {
+        "topic": "物质的量与溶液浓度",
+        "file": "practice_chemistry5.json",
+        "question_count": 16
+      },
+      "secondary_task": {
+        "topic": "气体/热化学基础",
+        "file": "practice_chemistry1.json",
+        "question_count": 12
+      },
+      "time_suggestion": {
+        "practice_min": 55,
+        "practice_max": 70
+      },
+      "mini_essay": null
+    },
+    {
+      "day": "周六",
+      "primary_task": {
+        "topic": "气体/热化学基础",
+        "file": "practice_chemistry1.json",
+        "question_count": 16
+      },
+      "secondary_task": {
+        "topic": "有机化学基础",
+        "file": "practice_chemistry2.json",
+        "question_count": 12
+      },
+      "time_suggestion": {
+        "practice_min": 55,
+        "practice_max": 70
+      },
+      "mini_essay": null
+    },
+    {
+      "day": "周日",
+      "primary_task": {
+        "topic": "有机化学基础",
+        "file": "practice_chemistry2.json",
+        "question_count": 16
+      },
+      "secondary_task": {
+        "topic": "金属与非金属元素化学",
+        "file": "practice_chemistry3.json",
+        "question_count": 12
+      },
+      "time_suggestion": {
+        "practice_min": 55,
+        "practice_max": 70
+      },
+      "mini_essay": null,
+      "full_task": {
+        "file": "practice_chemistry_mock.json",
+        "question_count": 24,
+        "time_min": 55,
+        "time_max": 85
+      }
+    }
+  ]
+}

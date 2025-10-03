@@ -1,0 +1,55 @@
+
+/* handwrite_pro.css */
+#openHWPro{ position:fixed; right:16px; bottom:36px; z-index:9999; padding:10px 14px; border-radius:999px; border:1px solid #ddd; background:#fff; box-shadow:0 6px 16px rgba(0,0,0,.12); }
+#hwPro{ position:fixed; inset:0; background:rgba(0,0,0,.38); z-index:10000; display:none; }
+#hwPro .inner{ position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); width:min(1200px, calc(100% - 40px)); height:min(92vh, 940px); background:#fff; border-radius:14px; box-shadow:0 18px 38px rgba(0,0,0,.28); display:flex; flex-direction:column; }
+.hw-head{ display:flex; align-items:center; justify-content:space-between; padding:10px 12px; border-bottom:1px solid #eee; }
+.hw-tools{ display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+.hw-tools .grp{ display:flex; gap:6px; align-items:center; padding:6px; border:1px solid #eee; border-radius:10px; background:#fafafa; }
+.hw-work{ flex:1; display:grid; grid-template-columns: 1fr 300px; gap:10px; padding:10px; }
+.hw-canvas-wrap{ position:relative; border:1px solid #eee; border-radius:10px; overflow:hidden; background:#fff; }
+#hwCanvas{ position:absolute; left:0; top:0; touch-action:none; }
+.hw-grid{ position:absolute; inset:0; pointer-events:none; opacity:.22; }
+.hw-grid.ruled{ background-image: linear-gradient(to bottom, #000 1px, transparent 1px); background-size: 100% 28px; }
+.hw-grid.squared{ background-image: linear-gradient(to bottom, #000 1px, transparent 1px), linear-gradient(to right, #000 1px, transparent 1px); background-size: 28px 28px; }
+.hw-grid.dot{ background-image: radial-gradient(#000 1px, transparent 1px); background-size: 24px 24px; background-position: -1px -1px; }
+.hw-side{ border:1px solid #eee; border-radius:10px; padding:8px; overflow:auto; }
+.hw-thumb{ display:flex; gap:8px; align-items:center; border:1px solid #eee; border-radius:8px; padding:6px; margin:6px 0; }
+.hw-thumb img{ width:96px; height:72px; object-fit:contain; background:#fff; border:1px solid #eee; border-radius:6px; }
+.hw-status{ padding:8px 10px; font-size:12px; color:#555; border-top:1px solid #eee; display:flex; justify-content:space-between; align-items:center; }
+.hw-btn{ padding:6px 10px; border:1px solid #ddd; border-radius:8px; background:#fff; cursor:pointer; }
+.hw-btn.on{ background:#e7f0ff; border-color:#b6d4fe; }
+.color{ width:20px; height:20px; border-radius:50%; border:1px solid #ccc; cursor:pointer; }
+.split{ width:1px; height:20px; background:#ddd; margin:0 6px; }
+.preset{ width:22px; height:22px; border-radius:50%; border:2px solid #ddd; cursor:pointer; }
+.preset[data-empty="1"]{ border-style:dashed; background:repeating-linear-gradient(45deg,#fafafa,#fafafa 4px,#eee 4px,#eee 8px); }
+
+
+/* ++ additions */
+#lassoBox{ position:absolute; border:2px dashed #ff7f50; display:none; pointer-events:none; }
+.shortcut{ padding:2px 8px; border:1px solid #ddd; border-radius:999px; font-size:12px; background:#fafafa; }
+
+
+/* ULTIMATE additions */
+.hw-work{ grid-template-columns: 1fr 300px; }
+.hw-side .sec{ margin-bottom:10px; border:1px solid #eee; border-radius:10px; padding:8px; }
+.hw-side .sec h4{ margin:4px 0 6px; font-size:13px; }
+#layers{ display:flex; flex-direction:column; gap:6px; }
+.layer-item{ display:flex; align-items:center; gap:6px; border:1px solid #eee; border-radius:8px; padding:4px 6px; }
+.layer-item .name{ flex:1; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.layer-item button{ padding:2px 6px; border:1px solid #ddd; border-radius:6px; background:#fff; cursor:pointer; }
+.layer-item .eye.on{ background:#eaf5ff; }
+.layer-item .lock.on{ background:#f6eaea; }
+#searchPanel{ position:fixed; inset:0; background:rgba(0,0,0,.45); display:none; z-index:10020; }
+#searchPanel .inner{ position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); width:min(900px, calc(100% - 40px)); max-height:90vh; overflow:auto; background:#fff; border-radius:12px; box-shadow:0 18px 40px rgba(0,0,0,.28); padding:12px; }
+#pdfView{ position:absolute; left:0; top:0; width:100%; background:#fff; }
+#pdfView .page{ page-break-after: always; padding:16px; }
+#pdfView .item{ margin:10px 0 18px; }
+#pdfView .item img{ max-width:100%; border:1px solid #eee; border-radius:6px; }
+#pdfToolbar{ position:fixed; right:16px; bottom:16px; z-index:10030; display:flex; gap:8px; }
+#pdfToolbar button{ padding:8px 12px; border:1px solid #ddd; border-radius:999px; background:#fff; box-shadow:0 6px 16px rgba(0,0,0,.12); }
+
+/* Deluxe overrides */
+#openHWPro{ position:fixed; right:16px; bottom:86px; z-index:9999; }
+#openHWPro{ background:var(--accent-grad); color:#fff; border:none; border-radius:999px; padding:10px 14px; box-shadow: var(--shadow) }
+#hwPro .inner{ background:var(--surface); }

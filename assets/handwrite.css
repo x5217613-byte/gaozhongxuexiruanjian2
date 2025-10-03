@@ -1,0 +1,23 @@
+
+#openHandwrite{ position:fixed; right:16px; bottom:76px; z-index:9999; padding:10px 14px; border-radius:999px; border:1px solid #ddd; background:#fff; box-shadow:0 6px 16px rgba(0,0,0,.12); }
+#hwOverlay{ position:fixed; inset:0; background:rgba(0,0,0,.35); z-index:10000; display:none; }
+#hwOverlay .inner{ position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); width:min(1100px, calc(100% - 40px)); max-height:90vh; background:#fff; border-radius:14px; box-shadow:0 16px 36px rgba(0,0,0,.25); display:flex; flex-direction:column; }
+.hw-head{ display:flex; align-items:center; justify-content:space-between; padding:10px 12px; border-bottom:1px solid #eee; }
+.hw-tools{ display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+.hw-tools .grp{ display:flex; gap:6px; align-items:center; padding:6px; border:1px solid #eee; border-radius:10px; background:#fafafa; }
+.hw-canvas-wrap{ position:relative; flex:1; overflow:auto; background:#fdfdfd; }
+.hw-grid{ position:absolute; inset:0; pointer-events:none; opacity:.25; background-size:24px 24px; }
+.hw-grid.ruled{ background-image: linear-gradient(to bottom, #000 1px, transparent 1px); background-size: 100% 28px; }
+.hw-grid.squared{ background-image: linear-gradient(to bottom, #000 1px, transparent 1px), linear-gradient(to right, #000 1px, transparent 1px); background-size: 28px 28px; }
+.hw-grid.dot{ background-image: radial-gradient(#000 1px, transparent 1px); background-size: 24px 24px; background-position: -1px -1px; }
+.hw-canvas{ position:absolute; left:0; top:0; }
+.hw-status{ padding:6px 10px; font-size:12px; color:#555; border-top:1px solid #eee; display:flex; justify-content:space-between; align-items:center; }
+.color-dot{ width:20px; height:20px; border-radius:50%; border:1px solid #ccc; cursor:pointer; }
+.color-dot[data-color="#000000"]{ background:#000; }
+.color-dot[data-color="#1f6feb"]{ background:#1f6feb; }
+.color-dot[data-color="#d73a49"]{ background:#d73a49; }
+.color-dot[data-color="#2ea043"]{ background:#2ea043; }
+.color-dot[data-color="#8a63d2"]{ background:#8a63d2; }
+.hw-btn{ padding:6px 10px; border:1px solid #ddd; border-radius:8px; background:#fff; cursor:pointer; }
+.hw-btn.on{ background:#e7f0ff; border-color:#b6d4fe; }
+.hw-anchor-hint{ position:absolute; border:2px dashed #1f6feb; border-radius:8px; pointer-events:none; }

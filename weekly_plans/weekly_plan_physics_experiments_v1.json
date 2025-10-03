@@ -1,0 +1,137 @@
+{
+  "subject": "physics_experiments",
+  "weekly_plan": [
+    {
+      "day": "周一",
+      "primary_task": {
+        "file": "practice_math_23.json",
+        "index": 1,
+        "id": "PHY_EXP_01"
+      },
+      "secondary_task": {
+        "file": "practice_math_23.json",
+        "index": 2,
+        "id": "PHY_EXP_02"
+      },
+      "time_suggestion": {
+        "practice_min": 25,
+        "practice_max": 35
+      },
+      "mini_essay": null
+    },
+    {
+      "day": "周二",
+      "primary_task": {
+        "file": "practice_math_23.json",
+        "index": 2,
+        "id": "PHY_EXP_02"
+      },
+      "secondary_task": {
+        "file": "practice_math_23.json",
+        "index": 3,
+        "id": "PHY_EXP_03"
+      },
+      "time_suggestion": {
+        "practice_min": 25,
+        "practice_max": 35
+      },
+      "mini_essay": null
+    },
+    {
+      "day": "周三",
+      "primary_task": {
+        "file": "practice_math_23.json",
+        "index": 3,
+        "id": "PHY_EXP_03"
+      },
+      "secondary_task": {
+        "file": "practice_math_23.json",
+        "index": 4,
+        "id": "PHY_EXP_04"
+      },
+      "time_suggestion": {
+        "practice_min": 25,
+        "practice_max": 35
+      },
+      "mini_essay": null
+    },
+    {
+      "day": "周四",
+      "primary_task": {
+        "file": "practice_math_23.json",
+        "index": 4,
+        "id": "PHY_EXP_04"
+      },
+      "secondary_task": {
+        "file": "practice_math_23.json",
+        "index": 5,
+        "id": "PHY_EXP_05"
+      },
+      "time_suggestion": {
+        "practice_min": 25,
+        "practice_max": 35
+      },
+      "mini_essay": null
+    },
+    {
+      "day": "周五",
+      "primary_task": {
+        "file": "practice_math_23.json",
+        "index": 5,
+        "id": "PHY_EXP_05"
+      },
+      "secondary_task": {
+        "file": "practice_math_23.json",
+        "index": 6,
+        "id": "PHY_EXP_06"
+      },
+      "time_suggestion": {
+        "practice_min": 25,
+        "practice_max": 35
+      },
+      "mini_essay": null
+    },
+    {
+      "day": "周六",
+      "primary_task": {
+        "file": "practice_math_23.json",
+        "index": 6,
+        "id": "PHY_EXP_06"
+      },
+      "secondary_task": {
+        "file": "practice_math_23.json",
+        "index": 7,
+        "id": "PHY_EXP_07"
+      },
+      "time_suggestion": {
+        "practice_min": 25,
+        "practice_max": 35
+      },
+      "mini_essay": null
+    },
+    {
+      "day": "周日",
+      "primary_task": {
+        "file": "practice_math_23.json",
+        "index": 7,
+        "id": "PHY_EXP_07"
+      },
+      "secondary_task": {
+        "file": "practice_math_23.json",
+        "index": 1,
+        "id": "PHY_EXP_01"
+      },
+      "time_suggestion": {
+        "practice_min": 25,
+        "practice_max": 35
+      },
+      "mini_essay": null,
+      "full_task": {
+        "file": "practice_math_23.json",
+        "index": 7,
+        "id": "PHY_EXP_07",
+        "requirement": "整理实验变量/拟合/误差与改进，形成 800–1000 字实验报告"
+      }
+    }
+  ]
+}

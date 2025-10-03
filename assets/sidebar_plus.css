@@ -1,0 +1,19 @@
+
+/* Sidebar collapse + mobile drawer */
+#sidebar .collapse-btn{
+  position: absolute; right:-12px; top:10px; width:24px; height:24px;
+  border-radius:50%; border:1px solid var(--border); background:var(--surface);
+  box-shadow: var(--shadow); display:flex; align-items:center; justify-content:center; cursor:pointer;
+}
+:root[data-sidebar="collapsed"] #sidebar{ width: 64px }
+:root[data-sidebar="collapsed"] #sidebar .nav-title{ display:none }
+:root[data-sidebar="collapsed"] #sidebar a{ justify-content:center }
+:root[data-sidebar="collapsed"] .main-with-sidebar{ margin-left: 80px }
+@media (max-width: 920px){
+  #sidebar{ transform: translateX(-110%); transition: transform .25s ease; top:52px; width: 72%; max-width: 300px }
+  :root[data-drawer="open"] #sidebar{ transform: none }
+  #drawerMask{ position: fixed; inset:0; background: rgba(0,0,0,.32); backdrop-filter: blur(2px); display:none; z-index: 999 }
+  :root[data-drawer="open"] #drawerMask{ display:block }
+  #topbar .menu{ display:inline-flex }
+}
+#topbar .menu{ display:none; cursor:pointer; padding:6px 10px; border:1px solid var(--border); border-radius:10px; background:var(--surface) }

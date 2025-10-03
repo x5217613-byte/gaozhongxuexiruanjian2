@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Weekly Plan v1.0",
+  "type": "object",
+  "required": [
+    "subject",
+    "weekly_plan"
+  ],
+  "properties": {
+    "subject": {
+      "type": "string"
+    },
+    "weekly_plan": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "day": {
+            "type": "string"
+          },
+          "primary_task": {
+            "type": "object"
+          },
+          "secondary_task": {
+            "type": "object"
+          },
+          "mini_essay": {
+            "type": [
+              "object",
+              "null"
+            ]
+          },
+          "full_task": {
+            "type": [
+              "object",
+              "null"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

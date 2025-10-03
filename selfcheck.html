@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>一键自检 · HS Study Suite</title>
+  <link rel="stylesheet" href="assets/theme.css">
+  <link rel="stylesheet" href="assets/components.css">
+  <link rel="stylesheet" href="assets/layout.css">
+  <link rel="stylesheet" href="assets/sidebar_plus.css">
+  <style>
+    .ok{color:#16a34a}.warn{color:#f59e0b}.bad{color:#dc2626}
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12px}
+  </style>
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#3a7afe">
+</head>
+<body>
+  <script src="assets/theme.js"></script>
+  <script src="assets/layout.js"></script>
+  <script src="assets/layout_plus.js"></script>
+  <div class="app-container main-with-sidebar">
+    <div class="container stack">
+      <h2>🩺 一键自检</h2>
+      <div class="row">
+        <button class="btn primary" id="run">开始自检</button>
+        <button class="btn" id="copy">复制结果</button>
+        <a class="btn" href="docs/验收报告.md" target="_blank">查看验收报告.md</a>
+      </div>
+      <div class="card">
+        <div id="out" class="stack mono"></div>
+      </div>
+    </div>
+  </div>
+  <script src="assets/selfcheck.js"></script>
+</body>
+</html>

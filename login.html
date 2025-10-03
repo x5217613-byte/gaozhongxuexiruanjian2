@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>登录 · HS Study Suite</title>
+  <link rel="stylesheet" href="assets/theme.css">
+  <link rel="stylesheet" href="assets/components.css">
+  <style>
+    body{ min-height:100vh; display:grid; place-items:center }
+    .login-card{ width:min(480px, calc(100% - 40px)); background:var(--surface); border:1px solid var(--border); border-radius:16px; box-shadow: var(--shadow); padding:18px; text-align:center; }
+    .logo{ width:64px; height:64px; border-radius:16px; background: var(--accent-grad); margin: 0 auto 10px; }
+    .row{ display:flex; gap:8px; flex-wrap:wrap; justify-content:center }
+    .row label{ display:flex; align-items:center; gap:8px }
+    .muted{ color:var(--muted); font-size:12px }
+  </style>
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#3a7afe">
+</head>
+<body>
+  <div class="login-card">
+    <div class="logo"></div>
+    <h2>HS Study Suite</h2>
+    <div class="muted">支持离线 PWA、手写做题、错题本、英语点读/跟读、云同步</div>
+    <div class="space"></div>
+    <div class="row">
+      <label>账号 <input id="u" type="text" placeholder="student"></label>
+      <label>密码 <input id="p" type="password" placeholder="123456"></label>
+    </div>
+    <div class="row">
+      <label>班级
+        <select id="cls">
+          <option value="G10-1">高一(1)班</option>
+          <option value="G10-2">高一(2)班</option>
+          <option value="G10-3">高一(3)班</option>
+        </select>
+      </label>
+      <label>验证码 <input id="cap" type="text" placeholder="计算结果"></label>
+      <span id="capQ" class="badge">—</span>
+    </div>
+    <div class="row">
+      <label style="flex:1">云端认证端点(可选) <input id="api" type="text" placeholder="https://example.com/api/login"></label>
+    </div>
+    <div class="space"></div>
+    <div class="row">
+      <button class="btn primary" id="login">登录</button>
+      <button class="btn ghost" id="skip">跳过登录</button>
+    </div>
+    <div class="space"></div>
+    <div class="muted">首次登录将把账号写入本地，用于离线校验；如填写云端端点，将先远端校验并缓存。</div>
+  </div>
+  <script>
+    function save(k,v){ try{ localStorage.setItem(k,v); }catch(e){} }
+    function get(k){ try{ return localStorage.getItem(k); }catch(e){ return null; } }
+    function toHome(){ location.href = 'home.html'; }
+    // captcha
+    let a=Math.floor(Math.random()*9)+1, b=Math.floor(Math.random()*9)+1;
+    document.getElementById('capQ').textContent = a + ' + ' + b + ' = ?';
+
+    document.getElementById('login').onclick = async ()=>{
+      const cap = document.getElementById('cap').value.trim();
+      if (String(Number(cap)) !== String(a+b)) { alert('验证码错误'); return; }
+      const u=document.getElementById('u').value.trim()||'student';
+      const p=document.getElementById('p').value||'123456';
+      const cls=document.getElementById('cls').value;
+      const storedU=get('auth:u'), storedP=get('auth:p');
+      const api=document.getElementById('api').value.trim();
+      if (api){
+        try{
+          const r = await fetch(api, {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({u, p, cls})});
+          if (r.ok){ save('auth:u',u); save('auth:p',p); save('auth:cls',cls); toHome(); return; }
+          else { alert('云端认证失败：'+r.status); return; }
+        }catch(e){ alert('云端认证异常：'+e); return; }
+      }
+      if (!storedU){ save('auth:u',u); save('auth:p', p); save('auth:cls', cls); toHome(); return; }
+      if (u===storedU && p===storedP){ save('auth:cls', cls); toHome(); } else { alert('账号或密码不匹配'); }
+    };
+    document.getElementById('skip').onclick = ()=> toHome();
+  </script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>首页 · 学习套件</title>
+  <link rel="stylesheet" href="assets/theme.css">
+  <link rel="stylesheet" href="assets/components.css">
+  <link rel="stylesheet" href="assets/layout.css">
+  <link rel="stylesheet" href="assets/sidebar_plus.css">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#3a7afe">
+</head>
+<body>
+  <script src="assets/theme.js"></script>
+  <script src="assets/layout.js"></script>
+  <script src="assets/layout_plus.js"></script>
+  <div class="app-container main-with-sidebar">
+    <div class="container stack">
+      <h2>欢迎回来 👋</h2>
+      <div class="grid cols-3">
+        <div class="card">
+          <div class="row"><b>⚡ 快速开始</b></div>
+          <div class="stack">
+            <a class="btn primary" href="dashboard.html">打开仪表盘</a>
+            <a class="btn" href="#english">英语点读/跟读</a>
+            <a class="btn" href="#wrongbook">错题本 · 精准分页</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="row"><b>🧭 今日导航</b></div>
+          <div id="todayPlan" class="stack"></div>
+        </div>
+        <div class="card">
+          <div class="row"><b>📈 近期趋势</b></div>
+          <div id="trend"></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="row"><b>🗓️ 最近学习时间线</b></div>
+        <div id="timeline" class="stack"></div>
+      </div>
+    </div>
+  </div>
+  <script src="assets/charts.js"></script>
+  <script>
+    async function readJSON(path){ try{ const r=await fetch(path); if (r.ok) return await r.json(); }catch(e){} return null; }
+    (async function(){
+      const plan = await readJSON('data/plans/weekly_plan_english.json');
+      const d = (plan?.days||[]).find(x=> x.day===((new Date().getDay()||7))) || plan?.days?.[0];
+      document.getElementById('todayPlan').innerHTML = d ? Object.keys(d).filter(k=>'day'!==k).map(k=>`<div>· <b>${k}</b>：${d[k]}</div>`).join('') : '<div class="muted">暂无</div>';
+      // trend: mock last 7 days progress count
+      const prog = JSON.parse(localStorage.getItem('study_progress')||'{}');
+      const days = Array.from({length:7},(_,i)=>({t:i+1, v: Math.round(Math.random()*8)+ (Object.keys(prog).length%4)}));
+      DashCharts.drawLine(document.getElementById('trend'), days);
+      // timeline from localStorage recent actions
+      const acts = JSON.parse(localStorage.getItem('recent_actions')||'[]').slice(-10).reverse();
+      document.getElementById('timeline').innerHTML = acts.length ? acts.map(a=> `<div>• [${a.time}] ${a.text}</div>`).join('') : '<div class="muted">暂无记录</div>';
+    })();
+  </script>
+<script src="assets/tiny_pdf_bookmarks.js"></script>
+<script src="assets/wrongbook_pdf_export_bookmarks.js"></script>
+</body>
+</html>
