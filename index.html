@@ -1,252 +1,27 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>高中学习套件 · 优化版</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>首页跳转中…</title>
+
+  <!-- 1) 立刻跳转到课程首页 -->
+  <meta http-equiv="refresh" content="0;url=home.html">
+  <script>
+    // 双保险：有些浏览器可能忽略 meta refresh
+    window.addEventListener('load', () => {
+      try { location.replace('home.html'); } catch (e) { location.href = 'home.html'; }
+    });
+  </script>
+
+  <!-- 保留 PWA 相关（可选但推荐） -->
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="stylesheet" href="style.css" />
-  <meta name="theme-color" content="#0f172a">
-
-<style>
-#ttsPanel{
-  position: fixed; right: 16px; bottom: 16px; width: 280px; z-index: 9999;
-  background: #fff; border: 1px solid #ddd; box-shadow: 0 6px 18px rgba(0,0,0,.12); border-radius: 10px;
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif;
-  user-select: none;
-}
-#ttsPanel .tts-header{ padding:10px 12px; font-weight:600; cursor:move; border-bottom:1px solid #eee; background:#fafafa; border-radius: 10px 10px 0 0;}
-#ttsPanel .tts-row{ display:flex; align-items:center; gap:8px; padding:8px 12px; }
-#ttsPanel .tts-row label{ width:62px; color:#333; font-size:12px; }
-#ttsPanel .tts-row input[type=range]{ flex: 1; }
-#ttsPanel .tts-actions{ display:flex; gap:8px; padding:10px 12px; border-top:1px solid #eee; }
-#ttsPanel .tts-actions button{ flex:1; padding:6px 8px; }
-#ttsPanel .tts-note{ font-size:12px; color:#666; padding:0 12px 12px; }
-.tts-icon{ margin-right:6px; font-size:14px; padding:0 6px; line-height:1.3; border:1px solid #e5e5e5; border-radius:6px; background:#fff; cursor:pointer; }
-.tts-icon:hover{ background:#f2f2f2; }
-mark[data-tts-mark]{ background: #ffec99; padding: 0 2px; border-radius: 2px; }
-</style>
-
-
-<style>
-#ttsSentenceBar{
-  position: fixed; top: 12px; right: 16px; z-index: 9998;
-  background: #fff; border: 1px solid #ddd; box-shadow: 0 4px 14px rgba(0,0,0,.1);
-  border-radius: 8px; padding: 6px 10px; gap: 8px; align-items: center; display: flex;
-  font-size: 13px;
-}
-#ttsSentenceBar label{ display:flex; align-items:center; gap:6px; }
-#ttsSentenceBar button{ padding: 4px 8px; }
-#wordCard{
-  position: fixed; z-index: 10000; background:#fff; border:1px solid #ddd; box-shadow:0 8px 24px rgba(0,0,0,.18);
-  border-radius:10px; padding:10px 12px; width: 280px;
-}
-#wordCard .wc-head{ display:flex; justify-content:space-between; font-weight:600; margin-bottom:6px; }
-#wordCard #wcPhonetic{ color:#555; font-weight:500; }
-#wordCard p{ margin:4px 0; font-size:13px; color:#333; }
-</style>
-
-
-<style>
-#ttsSentenceBar{
-  position: fixed; top: 12px; right: 16px; z-index: 9998;
-  background: #fff; border: 1px solid #ddd; box-shadow: 0 4px 14px rgba(0,0,0,.1);
-  border-radius: 8px; padding: 6px 10px; gap: 8px; align-items: center; display: flex;
-  font-size: 13px;
-}
-#ttsSentenceBar label{ display:flex; align-items:center; gap:6px; }
-#ttsSentenceBar button{ padding: 4px 8px; }
-
-#wordCard{ position: fixed; z-index:10000; background:#fff; border:1px solid #ddd; box-shadow:0 8px 24px rgba(0,0,0,.18);
-  border-radius:10px; padding:10px 12px; width: 300px; }
-#wordCard .wc-head{ display:flex; justify-content:space-between; align-items:center; font-weight:600; margin-bottom:6px; }
-#wordCard #wcPhonetic{ color:#555; font-weight:500; margin-left:6px; }
-#wordCard p{ margin:4px 0; font-size:13px; color:#333; }
-#wordCard .wc-actions{ margin-top:8px; text-align:right; }
-
-#statsModal{ position:fixed; inset:0; background:rgba(0,0,0,.35); display:none; z-index:10001; }
-#statsModal .stats-inner{ position:absolute; left:50%; top:50%; transform:translate(-50%,-50%);
-  width: 700px; max-width: calc(100% - 40px); max-height: 80vh; overflow:auto;
-  background:#fff; border-radius:12px; box-shadow: 0 10px 30px rgba(0,0,0,.2); }
-#statsModal .stats-head{ display:flex; justify-content:space-between; align-items:center; padding:12px 14px; font-weight:700; border-bottom:1px solid #eee; }
-#statsModal #statsClose{ border:none; background:transparent; font-size:16px; cursor:pointer; }
-#statsModal .stats-actions{ display:flex; gap:8px; padding:10px 14px; border-bottom:1px solid #eee; }
-#statsModal .stats-table{ padding:10px 14px; font-size:13px; }
-#statsModal .stats-table .tr{ display:grid; grid-template-columns: 1fr 60px 120px 1.5fr; gap:10px; padding:6px 0; border-bottom:1px dashed #eee; }
-#statsModal .stats-table .tr.th{ font-weight:700; border-bottom:1px solid #ddd; }
-</style>
-
-<link rel="stylesheet" href="assets/handwrite_pro.css">
-<link rel="stylesheet" href="assets/handwrite_bind_auto.css">
-<link rel="stylesheet" href="assets/english_read_aloud.css">
-<link rel="stylesheet" href="assets/theme.css">
-<link rel="stylesheet" href="assets/components.css">
-<link rel="stylesheet" href="assets/layout.css">
-<link rel="stylesheet" href="assets/sidebar_plus.css">
+  <meta name="theme-color" content="#3a7afe">
 </head>
 <body>
-  <header>
-    <h1>高中学习套件 · 优化版</h1>
-    <nav>
-      <button data-tab="home" class="active">首页</button>
-      <button data-tab="practice">同步练习</button>
-      <button data-tab="materials">材料题</button>
-      <button data-tab="essays">作文训练</button>
-      <button data-tab="plans">一周计划</button>
-      <button data-tab="wrong">错题本</button>
-    </nav>
-  </header>
-
-  <main>
-    <section id="home" class="tab active">
-      <p>本版本已加入：<strong>PWA离线</strong>、<strong>分页/筛选/搜索</strong>、<strong>进度与错题本</strong>、<strong>限时训练</strong>、<strong>数据校验与迁移脚本</strong>。</p>
-      <ul>
-        <li>数据清单：<code>data_manifest.json</code></li>
-        <li>脚本：<code>tools/scripts/migrate_to_schema_v1.py</code>、<code>tools/scripts/validate_data.py</code></li>
-      </ul>
-      <details open>
-        <summary>iPhone 使用</summary>
-        <ol>
-          <li>将整个目录部署到任意静态服务（或本地服务器App）。</li>
-          <li>Safari 打开 <code>index.html</code>，菜单选择“添加到主屏幕”，支持离线使用。</li>
-        </ol>
-      </details>
-    </section>
-
-    <section id="practice" class="tab">
-      <h2>同步练习</h2>
-      <div class="toolbar">
-        <label>文件：<select id="practiceSelect"></select></label>
-        <input id="practiceSearch" placeholder="关键词…" />
-        <select id="practiceType">
-          <option value="">全部题型</option>
-          <option value="single">单选</option>
-          <option value="multi">多选</option>
-          <option value="open">主观</option>
-        </select>
-        <button id="loadPractice">加载</button>
-        <button id="exportProgress">导出进度</button>
-        <input type="file" id="importProgress" style="display:none" />
-        <button id="importProgressBtn">导入进度</button>
-        <button id="startTimer">开始计时</button>
-        <span id="timer" class="badge"></span>
-      </div>
-      <div id="practiceList" class="list"></div>
-      <div class="pager">
-        <button id="prevPage">上一页</button>
-        <span id="pageInfo"></span>
-        <button id="nextPage">下一页</button>
-      </div>
-    </section>
-
-    <section id="materials" class="tab">
-      <h2>材料题</h2>
-      <div class="toolbar">
-        <label>文件：<select id="materialsSelect"></select></label>
-        <button id="loadMaterials">加载</button>
-        <button id="startTimerMat">材料限时(25min)</button>
-        <span id="timerMat" class="badge"></span>
-      </div>
-      <div id="materialsContainer" class="list"></div>
-    </section>
-
-    <section id="essays" class="tab">
-      <h2>作文训练</h2>
-      <div class="toolbar">
-        <label>文件：<select id="essaysSelect"></select></label>
-        <button id="loadEssays">加载</button>
-      </div>
-      <div id="essaysContainer" class="list"></div>
-    </section>
-
-    <section id="plans" class="tab">
-      <h2>一周计划</h2>
-      <div class="toolbar">
-        <label>计划：<select id="plansSelect"></select></label>
-        <button id="loadPlans">加载</button>
-        <label>策略：<select id="policyModeSelect"><option value="standard">标准</option><option value="light">轻</option><option value="sprint">冲刺</option></select></label>
-        <button id="genReviewPlan">从错题本生成7天回炉计划</button>
-        <button id="exportReviewPlan">导出回炉计划</button>
-        <details id="weightsPanel" style="margin-top:8px;">
-          <summary>⚙️ 回炉权重与上限</summary>
-          <div class="card" style="display:grid;grid-template-columns:220px 1fr;gap:6px;align-items:center;">
-            <label>Recency（近期性）<input type="range" id="w_recency" min="0" max="1" step="0.05" value="0.35"></label><span id="w_recency_val">0.35</span>
-            <label>ErrorRate（错误率）<input type="range" id="w_error" min="0" max="1" step="0.05" value="0.30"></label><span id="w_error_val">0.30</span>
-            <label>Difficulty（难度）<input type="range" id="w_diff" min="0" max="1" step="0.05" value="0.15"></label><span id="w_diff_val">0.15</span>
-            <label>TimeCost（耗时）<input type="range" id="w_time" min="0" max="1" step="0.05" value="0.10"></label><span id="w_time_val">0.10</span>
-            <label>TagWeakness（薄弱点）<input type="range" id="w_tag" min="0" max="1" step="0.05" value="0.10"></label><span id="w_tag_val">0.10</span>
-            <label>Stability（稳定度，负权重）<input type="range" id="w_stab" min="-1" max="0" step="0.05" value="-0.20"></label><span id="w_stab_val">-0.20</span>
-            <label>同一知识点当日上限（%）<input type="number" id="cap_percent" min="10" max="60" step="5" value="40"></label><span id="cap_percent_val">40%</span>
-            <div style="grid-column:1/-1">
-              <button id="applyWeights">应用权重并重新生成回炉计划</button>
-            </div>
-          </div>
-        </details>
-        <button id="genPolicyPlan">根据策略生成全科周计划</button>
-        <button id="exportPolicyPlan">导出策略周计划</button>
-      </div>
-      <div id="plansContainer" class="list"></div>
-    </section>
-
-    <section id="wrong" class="tab">
-      <h2>错题本</h2>
-      <div class="toolbar">
-        <button id="exportWrong">导出错题</button>
-        <input type="file" id="importWrong" style="display:none" />
-        <button id="importWrongBtn">导入错题</button>
-        <button id="clearWrong">清空错题本</button>
-        <button id="genReviewPlan2">生成7天回炉计划</button>
-        <button id="exportReviewPlan2">导出回炉计划</button>
-      </div>
-      <div id="wrongContainer" class="list"></div>
-    </section>
-  </main>
-
-  <footer>
-    <small>© HS Suite · 优化版。<span id="swStatus"></span></small>
-  </footer>
-
-  <script src="app.js"></script>
-
-<script>
-['recency','error','diff','time','tag','stab'].forEach(k=>{
-  const r=document.getElementById('w_'+k); const v=document.getElementById('w_'+k+'_val');
-  if(r&&v){ r.addEventListener('input',()=>v.textContent=r.value); v.textContent=r.value; }
-});
-const cap=document.getElementById('cap_percent'); const capv=document.getElementById('cap_percent_val');
-if(cap&&capv){ cap.addEventListener('input',()=>capv.textContent=cap.value+'%'); capv.textContent=(cap.value||'40')+'%'; }
-document.getElementById('applyWeights')?.addEventListener('click',()=>{ try{ window.__weightsApplied=true; generateReviewPlan(); }catch(e){ alert('生成失败：'+e); }});
-</script>
-<script src="assets/tts.js"></script>
-<script src="assets/vocab.js"></script>
-<script src="assets/review_capture.js"></script>
-<script src="assets/plan_patch_runtime.js"></script>
-<script src="assets/vocab_runtime_apply.js"></script>
-<script src="assets/review_practice.js"></script>
-<script src="assets/mistake_notebook.js"></script>
-<script src="assets/subject_practice.js"></script>
-<script src="assets/wrongbook_print.js"></script>
-<link rel="stylesheet" href="assets/handwrite.css">
-<script src="assets/handwrite.js"></script>
-<script src="assets/handwrite_pro.js"></script>
-<script src="assets/wrongbook_print_plus.js"></script>
-<script src="assets/handwrite_bind_auto.js"></script>
-<script src="assets/wrongbook_print_paged.js"></script>
-<script src="assets/wrongbook_print_enhance.js"></script>
-<script src="assets/english_read_aloud.js"></script>
-<script src="assets/sync_adapters.js"></script>
-<script src="assets/wrongbook_print_paged_precise.js"></script>
-<script src="assets/english_read_aloud_plus.js"></script>
-<script src="assets/sync_adapters_plus.js"></script>
-<script src="assets/knowledge_infer.js"></script>
-<script src="assets/pdf_export_buttons.js"></script>
-<script src="assets/theme.js"></script>
-<script src="assets/layout.js"></script>
-<script src="assets/layout_plus.js"></script>
-<script src="assets/theme_customizer.js"></script>
-<script src="assets/shortcuts.js"></script>
-<script src="assets/charts.js"></script>
-<script src="assets/tiny_pdf_bookmarks.js"></script>
-<script src="assets/wrongbook_pdf_export_bookmarks.js"></script>
+  <!-- 可见的后备入口，防止极端情况下未自动跳转 -->
+  <div style="padding:12px">
+    正在打开课程首页… 若未跳转，<a href="home.html">点此进入课程首页</a>。
+  </div>
 </body>
 </html>
